@@ -1,25 +1,24 @@
-# MAD9013 - Cross-Platform Web Development
+# MAD9135 - HTML5 App Development
 
 - 60 hours (instructional activity)
 
 :::
 
-Technologies on the web evolve quickly. Every year brings new devices and with them new capabilities. These devices present many challenges and opportunities to web developers. Fundamentals of web development using hypertext markup language (HTML), and cascading style sheets (CSS) are reviewed, with a focus on developing responsive and mobile websites. Multiple IDEs are introduced and used to complete hands-on projects.
+Students leverage acquired HTML5 and Javascript skills while creating Single Page Applications (SPA) built with modern Frameworks, such as Ionic, Angular JS, Ember JS or Backbone JS. The use of task automation and productivity tools is also explored. Hands-on development of mobile applications for multiple platforms is the goal. Designing to conserve battery life on mobile devices is stressed.
 
 **[Course Section Information (CSI)](./course-section-information.md)**
 
 ## Student Workload
 
-- 4hrs/week lecture/lab
+- 3hrs/week lecture/lab
+- 1hr/week hybrid activities
 - 4hrs/week prep/practice/assignments
 
 ## Schedule
 
 Room T127
 
-Section 010: Monday 3pm-5pm and Friday 8am-10am :clock2:
-
-Section 020: Monday 1pm-3pm and Friday 1pm-3pm :clock2:
+Section 300: Wednesday 1pm - 4pm :clock2:
 
 ## Application Stack
 
@@ -33,17 +32,14 @@ Section 020: Monday 1pm-3pm and Friday 1pm-3pm :clock2:
   grid-gap: 1.5rem;
   margin-bottom: 2rem;">
 
-<img src="../assets/html-5.svg" alt="HTML5" 
+<img src="../assets/javascript.svg" alt="NodeJS" 
      style="width: 100%; height: auto; max-height: 130px; max-width: 160px;
             align-self: start; margin-top: .95rem;">
 
-<img src="../assets/css3.svg" alt="CSS3" 
+<img src="../assets/react.svg" alt="React" 
      style="width: 100%; height: auto; max-height: 130px; max-width: 160px;align-self: start; margin-top: .95rem;">
-     
-<img src="../assets/sass-1.svg" alt="Sass" 
-     style="width: 100%; height: auto; max-height: 130px; max-width: 160px;align-self: start; margin-top: .95rem;">
-     
-<img src="../assets/brackets.svg" alt="Brackets" 
+          
+<img src="../assets/redux.svg" alt="Redux" 
      style="width: auto; height: 70%; max-height: 130px;
             align-self: end; margin-bottom: .8rem;">
 
@@ -52,20 +48,16 @@ Section 020: Monday 1pm-3pm and Friday 1pm-3pm :clock2:
 
 ## Core Topics
 
-- HTML5 Semantics
-- HTML Text Elements
-- HTML Structural Elements
-- HTML, HTTP, the Internet
-- Images as content or design
-- CSS for style
-- CSS for layout
-- Responsive Web Design
-- CSS Grids, Flexbox, and Floats
-- Typography
-- Colours
-- HTML Forms
-- Transitions, Transforms, Animations
-- GitHub
-- SASS CSS Preprocessor
-- Bootstrap 4
-- A11y, i18n, and l10n
+- ES6
+- ES6
+- ES6
+- ES6
+- ES6
+- ES6
+- ES6
+- ES6
+- React Framework
+- JSX
+- Redux
+- React Native
+- Expo

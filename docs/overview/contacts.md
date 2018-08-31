@@ -14,27 +14,7 @@
     ]"
 />
 
-<ContactCard 
-  name="Justin Bennett"
-  title="Instructor"
-  bio=""
-  :details="[
-      { label: 'email', value: 'bennetj@algonquincollege.com' }, 
-      { label: 'phone', value: '' }, 
-      { label: 'office', value: '' }
-    ]"
-/>
 
-<ContactCard 
-  name="Adesh Shah"
-  title="Instructor"
-  bio=""
-  :details="[
-      { label: 'email', value: 'shaha@algonquincollege.com' }, 
-      { label: 'phone', value: '‬' }, 
-      { label: 'office', value: '' }
-    ]"
-/>
 
 <ContactCard 
   name="Deborah Buck"

@@ -10,6 +10,7 @@ We will walk through the setup of installing and using each of these in class. H
 - [GitHub Desktop](https://desktop.github.com/)
 - [Lynda.com](https://lynda.com/)
 - [CodePen](https://codepen.io/)
+- [PluralSight](https://www.pluralsight.com/)
 
 ## Reading
 
@@ -17,11 +18,9 @@ We will walk through the setup of installing and using each of these in class. H
 
 ### Recommended
 
-- [Learn Shay Howe](https://learn.shayhowe.com/)
-- [GitHub Hello World Examples](https://guides.github.com/activities/hello-world/)
+- 
 
 ## Video Tutorials
 
 - [Steve Griffith Channel](https://www.youtube.com/channel/UCTBGXCJHORQjivtgtMsmkAQ/)
-- [FreeCodeCamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
 - 

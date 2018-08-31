@@ -2,21 +2,21 @@
 
 ## Vocational Learning Outcomes
 
-**VLO 3** Create effective user interfaces that leverage evolving mobile device capabilities. (T, A)
+**VLO 1** Identify requirements and implement mobile solutions. (T, A)
 
-**VLO 4** Design and develop websites that deploy to different devices and platforms. (T, A)
+**VLO 5** Design and develop cross-platform applications built with rich-media and HTML-based technologies. (T, A)
 
-**VLO 7** Research and apply various software development kits (SDKs), frameworks and toolkits. (T, A)
+**VLO 9** Build, test, and deploy secure mobile solutions using appropriate network technologies. (T, A)
 
 ## Essential Employability Skills
 
-**EES 7** Analyze, evaluate and apply relevant information from a variety of sources. (T, A)
+**EES 3** Execute mathematical operations accurately.  (T, A)
 
-**EES 11** Take responsibility for one's own actions, decisions and consequences. (T, A)
+**EES 4** Apply a systematic approach to solve problems. (T, A)
 
 ## Course Learning Requirements (CLRs) with Embedded Knowlege and Skills (EKSs)
 
-### CLR 1. Explain how HTML and CSS are used to create websites
+### CLR 1. Explain 
 
 **EKS 1.1** Explain the purpose of HTML
 
@@ -24,7 +24,7 @@
 
 **EKS 1.3** Explain what open web standards are and what body oversees them
 
-### CLR 2. Create websites for multiple platforms using HTML and CSS
+### CLR 2. Create 
 
 **EKS 2.1** Create HTML documents using up-to-date standards
 
@@ -32,7 +32,7 @@
 
 **EKS 2.3** Integrate HTML and CSS to make a cohesive website
 
-### CLR 3. Identify requirements for building websites on different platforms
+### CLR 3. Identify
 
 **EKS 3.1** Demonstrate how to use media queries to create a multi-platform responsive website.
 
@@ -40,7 +40,7 @@
 
 **EKS 3.3** Identify HTML5 and CSS3 features that are supported by modern browsers and mobile devices.
 
-### CLR 4. Compare and contrast sites built for different form factors
+### CLR 4. Compare
 
 **EKS 4.1** Explain how devices can have differences in capabilities, dimensions, and resolution and how this can impact an interface design.
 
@@ -48,7 +48,7 @@
 
 **EKS 4.3** Demonstrate appropriate use of CSS media queries when designing responsive web pages.
 
-### CLR 5. Use basic scripts, frameworks, and toolkits to add interactivity to websites, enhance website features, and increase development speed.
+### CLR 5. Use 
 
 **EKS 5.1** Apply Javascript to enhance websites.
 
@@ -58,7 +58,7 @@
 
 **EKS 5.4** Use an HTML-CSS Framework to create a webpage or website.
 
-### CLR 6. Use a variety of tools to upload, host, and manage websites.
+### CLR 6. Use 
 
 **EKS 6.1** Use SASS to write CSS more efficiently.
 
@@ -68,7 +68,7 @@
 
 **EKS 6.4** Explain how different types of web hosting can be used on a project both locally and remotely.
 
-### CLR 7. Gain an understanding of current best practices
+### CLR 7. Gain
 
 **EKS 7.1** Investigate various common design patterns.
 

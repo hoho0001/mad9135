@@ -24,7 +24,7 @@ export default {
     name: { type: String, required: true },
     title: { type: String, default: 'Professor' },
     bio: { type: String, default: '' },
-    imgUrl: { type: String, default: '/mad9013/HeadshotPlaceholder.png' },
+    imgUrl: { type: String, default: '/mad9135/HeadshotPlaceholder.png' },
     details: { type: Array, default: () => ([
       { label: 'email', value: '' }, 
       { label: 'phone', value: '' }, 
