@@ -1,0 +1,18 @@
+{
+  "name": "mad9135",
+  "description": "HTML5 App Development",
+  "author": {
+    "name": "Steve Griffith",
+    "email": "griffis@algonquincollege.com"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.14.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
