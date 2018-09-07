@@ -1,6 +1,7 @@
 # MAD9135 - HTML5 App Development
 
-- 60 hours (instructional activity)
+- 45 hours/week (instructional activity)
+- 15 hours/week (online research and exercises)
 
 :::
 
@@ -48,13 +49,6 @@ Section 300: Wednesday 1pm - 4pm :clock2:
 
 ## Core Topics
 
-- ES6
-- ES6
-- ES6
-- ES6
-- ES6
-- ES6
-- ES6
 - ES6
 - React Framework
 - JSX

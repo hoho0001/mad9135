@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'MAD9013',
-  description: 'Cross-Platform Web Development',
-  base: '/mad9013/',
+  title: 'MAD9135',
+  description: 'HTML5 App Development',
+  base: '/mad9135/',
   themeConfig: {
     lastUpdated: true,
     nav: [{
@@ -35,7 +35,8 @@ module.exports = {
         collapsable: true,
         children: [
           '/modules/week1/',
-          '/modules/week2/'
+          '/modules/week2/',
+          '/modules/week3/'
         ]
       }
     ],
