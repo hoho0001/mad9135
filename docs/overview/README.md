@@ -52,6 +52,7 @@ Section 300: Wednesday 1pm - 4pm :clock2:
 - ES6
 - React Framework
 - JSX
+- PWA
 - Redux
 - React Native
 - Expo

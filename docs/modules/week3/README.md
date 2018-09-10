@@ -40,5 +40,5 @@
 ## What to do Before Week 4 <Badge text="90 mins" />
 
 - [Youtube Tutorial Playlist]()
-- [Continue first Hybrid Assignment](/assignments/)
+- [Continue first Hybrid Assignment](../../assignments/)
 - 

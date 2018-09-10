@@ -7,9 +7,12 @@
 - Using npm on the command line
 - Reviewing Package.json files
 - `npm init -y`
-- `npm i -D pkg`
+- `npm i -D [pkg]`
+- `npm install -save-dev [pkg]`
 - `npm i -P pkg`
-- `npm i -g pkg`
+- `npm install -save [pkg]`
+- `npm i -g [pkg]`
+- `npm install -g [pkg]`
 - Using npx on the command line
 
 
@@ -32,4 +35,4 @@
 - [YouTube Week 2 Tutorial Playlist](https://www.youtube.com/watch?v=QtGbcvZ6774&list=PLyuRouwmQCjnc5Fr3alMwdMZWdWWH_m6p)
 - [FunFunFunction Object Creation Playlist](https://www.youtube.com/watch?v=GhbhD1HR5vk&index=1&list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub)
     - Make sure you watch MPJ @ 1.5x speed
-- [Start first Hybrid Assignment](/assignments/)
+- [Start first Hybrid Assignment](../../assignments/)

@@ -3,7 +3,7 @@ module.exports = {
   description: 'HTML5 App Development',
   base: '/mad9135/',
   themeConfig: {
-    lastUpdated: true,
+    lastUpdated: 'Last Updated: ',
     nav: [{
         text: 'Overview',
         link: '/overview/'
@@ -36,8 +36,18 @@ module.exports = {
         children: [
           '/modules/week1/',
           '/modules/week2/',
-          '/modules/week3/'
+          '/modules/week3/',
+          '/modules/week4/'
         ]
+      },
+      {
+          title: 'Assignments',
+          collapsable: true,
+          children: [
+              ['/assignments/#hybrid-assignments', 'Hybrids'],
+              ['/assignments/#assignments', 'Assignments'],
+              ['/assignments/#projects', 'Projects']
+          ]
       }
     ],
     sidebarDepth: 2
