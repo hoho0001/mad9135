@@ -4,3 +4,8 @@
 
 - 
 - 
+
+## What to do Before Week 5
+
+- [YouTube Playlist]()
+- 

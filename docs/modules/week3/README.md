@@ -39,6 +39,7 @@
 
 ## What to do Before Week 4 <Badge text="90 mins" />
 
-- [Youtube Tutorial Playlist]()
+- [Youtube Tutorial Playlist](https://www.youtube.com/watch?v=QtGbcvZ6774&list=PLyuRouwmQCjnc5Fr3alMwdMZWdWWH_m6p)
+- Same list as last week.
 - [Continue first Hybrid Assignment](../../assignments/)
 - 
