@@ -21,6 +21,7 @@
 - Destructuring, Rest, and Spread
 - [Destructuring video](https://www.youtube.com/watch?v=ktBTYQXBAog)
 - [MDN Destructuring Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- [Nested Destructuring Video](https://www.youtube.com/watch?v=_ApRMRGI-6g)
 - [Rest and Spread video](https://www.youtube.com/watch?v=QtGbcvZ6774)
 - [MDN Rest Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 - [MDN Spread Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
