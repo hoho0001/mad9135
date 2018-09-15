@@ -167,6 +167,7 @@ for(let val of obj){
 
 ## Intro to React <Badge text="30 mins" />
 
+- VERSION 16: Watch out for old tutorials.
 - Adding React Dev tools to Chrome
 - Adding React with script tags
 ```html
@@ -191,7 +192,9 @@ create-react-app my-sample-app
 ```
 npx create-react-app my-sample-app
 ```
-- 
+- Alternate tools for creating React Apps
+- [React Docs for other tools](https://reactjs.org/docs/create-a-new-react-app.html)
+
 
 
 ## What to do Before Week 4 <Badge text="90 mins" />
