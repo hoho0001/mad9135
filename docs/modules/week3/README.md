@@ -23,19 +23,175 @@
 
 - Questions from Week 2 topics or videos
 - `this` in functions and arrow functions
+
+```javascript
+    function Person(nm){
+        //called with new so `this` will be returned
+        this.name = nm;
+    }
+
+    let bob = new Person('Bob');
+
+    let obj = {
+        mthd1(){
+            console.log(this); // obj
+        },
+        mthd2: function(){
+            console.log(this); // obj
+        }
+        mthd3: () =>{
+            console.log(this); // lexical... window
+        }
+    }
+
+    obj.mthd1();
+    obj.mthd2();
+    obj.mthd3();
+```
+
 - `__proto__` (objects) vs `prototype` (function objects)
 - Iterable vs Enumerable
 - JavaScript "Classes"
+
+```javascript
+class Dog extends Animal{
+    
+    constructor(){
+        super();
+        
+    }
+    
+    bark(){
+        
+    }
+    
+    static howl(){
+            
+    }
+} 
+
+let woofy = new Dog();
+woofy.bark();
+Dog.howl(); 
+```
+
 - `import` and `export` in ES6
+
+```javascript
+//main.js
+import diffKEY from './other.js';
+//-------------------
+import someFunc from './other.js';
+//-------------------
+import {funcA, KEY} from './other.js';
+
+
+//other.js
+const KEY = '123456';
+export default KEY;
+//-------------------
+
+export default function(){
+    console.log('something');
+}
+//-------------------
+const KEY = 654321;
+function funcA(){
+    //will be exported
+}
+function funcB(){
+    //will NOT be exported
+    //can only be called from this page
+}
+
+export {funcA, KEY};
+```
+
 - Iterators and Generators
+
+```javascript
+//generator functions
+let names = ['archer', 'carol', 'mallory', 'lana'];
+
+function * gen(){
+    yield names[0];
+    yield names[2];
+    yield names[1];
+    yield names[3];
+}
+
+let iter = gen();
+console.log(iter.next() );
+console.log(iter.next() );
+console.log(iter.next() );
+console.log(iter.next() );
+console.log(iter.next() );
+
+```
+
+```javascript
+//custom iterators
+//Objects do NOT have iterators
+let obj = {
+    propA: 123,
+    propB: 'abc',
+    propC: true
+}
+
+obj[Symbol.iterator] = function(){
+    let counter = 0;
+    return {
+        next: function(){
+            counter++;
+            switch(counter){
+                case 1:
+                    return {value: obj.propA, done: false}
+                    break;
+                case 2:
+                    return {value: obj.propC, done: false};
+                    break;
+                case 3:
+                    return {value: obj.propB, done: false};
+                    break;
+                default:
+                    return {value: undefined, done: true};
+            }
+        }
+    }
+}
+
+for(let val of obj){
+    console.log( prop );
+}
+```
 
 ## Intro to React <Badge text="30 mins" />
 
 - Adding React Dev tools to Chrome
 - Adding React with script tags
-- Adding React with npm
+```html
+ <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+ ```
+
+- Installing HomeBrew and Yarn
+- [HomeBrew](https://brew.sh/)
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+- [Yarn Package Manager](https://yarnpkg.com/lang/en/docs/install/#mac-stable)
 - create-react-app installation with npm or npx
-- React Hello world.
+- Adding React with npm
+```
+npm i -g create-react-app
+create-react-app my-sample-app
+```
+- Adding React with npx
+```
+npx create-react-app my-sample-app
+```
+- 
 
 
 ## What to do Before Week 4 <Badge text="90 mins" />
