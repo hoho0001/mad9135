@@ -22,6 +22,7 @@
 ## ES6 Features <Badge text="90 mins" />
 
 - Questions from Week 2 topics or videos
+- `this` in functions and arrow functions
 - `__proto__` (objects) vs `prototype` (function objects)
 - Iterable vs Enumerable
 - JavaScript "Classes"
@@ -39,7 +40,7 @@
 
 ## What to do Before Week 4 <Badge text="90 mins" />
 
-- [Youtube Tutorial Playlist](https://www.youtube.com/watch?v=QtGbcvZ6774&list=PLyuRouwmQCjnc5Fr3alMwdMZWdWWH_m6p)
+- [Week 2/3 Youtube Tutorial Playlist](https://www.youtube.com/watch?v=QtGbcvZ6774&list=PLyuRouwmQCjnc5Fr3alMwdMZWdWWH_m6p)
 - Same list as last week.
 - [Continue first Hybrid Assignment](../../assignments/)
 - 
