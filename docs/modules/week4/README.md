@@ -1,5 +1,12 @@
 # Week 4: React and Components
 
+## Some Best Practices for Coding
+
+- Air B-n-B JavaScript Style Guide
+- [AirBNB Style Guide](https://github.com/airbnb/javascript)
+- Use it to set up your ES Lint - include the react option.
+- [ESLint](https://eslint.org/)
+
 ## Building Components with React
 
 - The basic scaffolding for a React project
