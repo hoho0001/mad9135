@@ -1,5 +1,9 @@
 # Week 3: More ES6 and Intro to React
 
+## Classrep Elections <Badge text="10 mins" />
+
+- Select a Level 3 Class Rep Today
+
 ## Git and CLI <Badge text="30 mins" />
 
 - Turning a Project into a Repo
