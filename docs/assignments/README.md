@@ -24,6 +24,8 @@ You will need your [GitHub account](https://github.com) for most assignments. Th
     Object Destructuring
     fetch
     ```
+    
+    - **RUN THE BABEL SCRIPT ON YOUR PROJECT BEFORE SUBMITTING**
     - Push the Repo up to GitHub using Git in the Terminal
     - Submit the URL to the Brightspace assignment
     - Invite `griffis@algonquincollege.com ` to your private repo.
