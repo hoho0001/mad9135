@@ -83,6 +83,38 @@ export default App;
 - `export PATH="${PATH}:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"`
 - save the file and relaunch the Terminal.
 
+## Introduction to JSX
+
+- The `render()` method must return ONE root element
+- Wrap what you are returning in parentheses.
+- Writing comments in JSX
+- Injecting JS in the returned content with curly braces around expressions.
+- No quotes around the attribute values if you are using curly braces.
+- No if statements. Use conditional ternary statements.
+- Attribute names - class => className, for => htmlFor
+- Styles can be added as objects. Use the JS version of style props.
+
+```javascript
+class App extends React.Component {
+    render () {
+        let myStyle = {
+            fontSize: '2rem',
+            color: 'cornflowerblue'
+        }
+    
+        return (
+            <div title={ 5+1 } id="bob">
+                <span style={myStyle}>Hello World.</span>
+                {/*
+                Comments must be wrapper in curly braces
+                */}
+            </div>
+        )
+    }
+}
+```
+
+- 
 
 ## What to do Before Week 5
 
