@@ -85,6 +85,7 @@ export default App;
 
 ## Introduction to JSX
 
+- JSX is an XML like syntax used by React to extend JS.
 - The `render()` method must return ONE root element
 - Wrap what you are returning in parentheses.
 - Writing comments in JSX
@@ -114,7 +115,63 @@ class App extends React.Component {
 }
 ```
 
-- 
+## Why Use JSX
+
+-  React comes with a method called `createElement()`, which is used to create elements within your web app.
+- JSX is like a shortcut to calling `createElement()`
+
+```javascript
+React.createElement(
+         "p",
+         { title: "This is a paragraph" },
+         "Lorem Ipsum dolor sit amet. Ad Astra!"
+      )
+```
+
+- The `createElement()` method takes three arguments - the element to create, an object which defines the attributes for that element, and then the content / children of the element (a list of createElement calls).
+- If the child of the element being created is another element then you would replace the third argument with another `createElement()` call.
+
+```javascript
+var nav = React.createElement(
+   "ul",
+   { id: "nav" },
+   React.createElement(
+      "li",
+      null,
+      React.createElement(
+         "a",
+         { href: "#home" },
+         "First Link"
+      )
+   ),
+   React.createElement(
+      "li",
+      null,
+      React.createElement(
+         "a",
+         { href: "#other" },
+         "Second Link"
+      )
+   )
+);
+```
+
+- The above syntax would create a <ul> with two <li> elements that each contained an anchor tag.
+- See how redundant this could get?
+- Alternatively, here is the JSX for the same output.
+
+```javascript
+return (
+    <ul>
+        <li><a href="#home">First Link</a></li>
+        <li><a href="#other">Second Link</a></li>
+    </ul>
+)
+```
+
+- Which would you prefer to write?
+- Here are some [JSX Gotchas](https://reactjs.org/docs/jsx-in-depth.html)
+
 
 ## What to do Before Week 5
 
