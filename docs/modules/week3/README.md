@@ -117,7 +117,7 @@ export {funcA, KEY};
 //generator functions
 let names = ['archer', 'carol', 'mallory', 'lana'];
 
-function * gen(){
+function* gen(){
     yield names[0];
     yield names[2];
     yield names[1];
