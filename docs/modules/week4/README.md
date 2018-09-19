@@ -158,7 +158,7 @@ var navElement = React.createElement(
 ReactDOM.render(navElement, document.getElementById('app'));
 ```
 
-- The above syntax would create a <ul> with two <li> elements that each contained an anchor tag.
+- The above syntax would create a `UL` with two `LI` elements that each contained an anchor tag.
 - See how redundant this could get?
 - Alternatively, here is the JSX for the same output.
 
