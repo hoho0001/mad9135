@@ -132,7 +132,7 @@ React.createElement(
 - If the child of the element being created is another element then you would replace the third argument with another `createElement()` call.
 
 ```javascript
-var nav = React.createElement(
+var navElement = React.createElement(
    "ul",
    { id: "nav" },
    React.createElement(
@@ -154,6 +154,8 @@ var nav = React.createElement(
       )
    )
 );
+
+ReactDOM.render(navElement, document.getElementById('app'));
 ```
 
 - The above syntax would create a <ul> with two <li> elements that each contained an anchor tag.
@@ -175,5 +177,5 @@ return (
 
 ## What to do Before Week 5
 
-- [YouTube Week 4 Playlist]()
+- [YouTube Week 4 Playlist](https://www.youtube.com/playlist?list=PLyuRouwmQCjmEBy2Bmrgs83IrkHYCLk70)
 - 
