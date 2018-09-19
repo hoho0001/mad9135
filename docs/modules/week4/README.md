@@ -1,4 +1,4 @@
-# Week 4: React and Components
+# Week 4: React App Fundamentals
 
 ## Some Best Practices for Coding
 
@@ -7,7 +7,7 @@
 - Use it to set up your ES Lint - include the react option.
 - [ESLint](https://eslint.org/)
 
-## Building Components with React
+## Basic Structure of a React App
 
 - The basic scaffolding for a React project
 - Website starts in `/src/index.js`

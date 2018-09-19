@@ -1,40 +1,21 @@
-# Week 5: Testing with Jest
+# Week 5: React Components and Props
 
-## Why write automated tests?
+## Creating Components for your Website
 
-- Isn't that just doubling the work for any new feature?
-- Fast regression testing
-  - Our code dosn't live in isolation. Changes to one module can affect many others ...
-- Confident refactoring ...
-- It can actually save time by focusing on one small problem at a time.
+- `React.Component`
+- 
 
-## Different kinds of tests
 
-- Unit tests
-- Integration tests
-- End-to-end / UI tests
+## Passing Data between Components
 
-## Testing libraries
+- `this.props`
+- 
 
-Test runners, asertions, coverage, mocks and fakes
+## Stateless Functional Components
 
-- Jest
-- Moca
-- Chai
-- Jasmine
-- Karma
-- Ava
-- Protractor
-- Nightwatch
+-
 
-## What is TDD ?
+## What to do Before Week 6
 
-Test driven development ...
-
-## What is BDD
-
-An extension of TDD, behaviour driven development ...
-
-## Exercise
-
-**Installing Jest**
+- [YouTube Week 5 Playlist]()
+- 
