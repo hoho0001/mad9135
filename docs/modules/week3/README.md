@@ -5,7 +5,7 @@
 - Select a Level 3 Class Rep Today
 - There will be a single class rep to represent all the level 3 students this year.
 
-## Git and CLI <Badge text="30 mins" />
+## Git and CLI <Badge text="20 mins" />
 
 - Turning a Project into a Repo
 - `git init`
@@ -25,7 +25,7 @@
 - Command line open file in VSCode `code main.js`
 - See Notes in Week 4 Module for how to add brackets or VS Code to the PATH
 
-## ES6 Features <Badge text="90 mins" />
+## ES6 Features <Badge text="60 mins" />
 
 - Questions from Week 2 topics or videos
 - `this` in functions and arrow functions
@@ -171,7 +171,7 @@ for(let val of obj){
 }
 ```
 
-## Intro to React <Badge text="30 mins" />
+## Intro to React <Badge text="20 mins" />
 
 - VERSION 16: Watch out for old tutorials.
 - Adding React Dev tools to Chrome
