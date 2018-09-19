@@ -11,9 +11,17 @@
 - `this.props`
 - 
 
+## PropTypes
+
+- `static propTypes = { }`
+- `static defaultProps = { }`
+- `yarn add prop-types`
+- 
+
 ## Stateless Functional Components
 
--
+- When all you need is a render method
+- 
 
 ## What to do Before Week 6
 
