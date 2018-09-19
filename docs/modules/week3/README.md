@@ -3,6 +3,7 @@
 ## Classrep Elections <Badge text="10 mins" />
 
 - Select a Level 3 Class Rep Today
+- There will be a single class rep to represent all the level 3 students this year.
 
 ## Git and CLI <Badge text="30 mins" />
 
@@ -22,6 +23,7 @@
 - Command line open current folder in VSCode `code .`
 - Command line open file in brackets `brackets main.js`
 - Command line open file in VSCode `code main.js`
+- See Notes in Week 4 Module for how to add brackets or VS Code to the PATH
 
 ## ES6 Features <Badge text="90 mins" />
 
