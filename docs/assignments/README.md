@@ -29,10 +29,11 @@ You will need your [GitHub account](https://github.com) for most assignments. Th
     - Push the Repo up to GitHub using Git in the Terminal
     - Submit the URL to the Brightspace assignment
     - Invite `griffis@algonquincollege.com ` to your private repo.
+    - Due Friday Sept 21 @5pm
 
 2. **Firebase Firestore App**
 
-    - Start with this [PluralSight Tutorial](https://app.pluralsight.com/player?course=firebase-firestore-getting-started&author=ervis-trupja&name=4dfc1dab-c00c-40aa-9769-1c9005598b64&clip=3&mode=live)
+    - Start with this [PluralSight Tutorial](https://app.pluralsight.com/library/courses/firebase-firestore-getting-started/table-of-contents)
     - Watch the Firebase Firestore tutorial at ~1.5x speed and you will be finished in less than an hour.
     - Your assignment is to create your own simple website that lets you manage a list of your favourite categorized whatever.
     - You write the HTML, CSS, and Javascript for the webpage.
