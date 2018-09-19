@@ -30,7 +30,48 @@ You will need your [GitHub account](https://github.com) for most assignments. Th
     - Submit the URL to the Brightspace assignment
     - Invite `griffis@algonquincollege.com ` to your private repo.
 
-2. 
+2. **Firebase Firestore App**
+
+    - Start with this [PluralSight Tutorial](https://app.pluralsight.com/player?course=firebase-firestore-getting-started&author=ervis-trupja&name=4dfc1dab-c00c-40aa-9769-1c9005598b64&clip=3&mode=live)
+    - Watch the Firebase Firestore tutorial at ~1.5x speed and you will be finished in less than an hour.
+    - Your assignment is to create your own simple website that lets you manage a list of your favourite categorized whatever.
+    - You write the HTML, CSS, and Javascript for the webpage.
+    - It needs to include an Unordered list of categories. 
+    - Inside each category there will be a list of items
+    
+    ```html
+    <!-- this is just an example list -->
+    <ul class="categories">
+        <li>Cheese
+        <ul>
+            <li>Emmenthal</li>
+            <li>Mozzarella</li>
+            <li>Gouda</li>
+        </ul></li>
+        <li>Beer
+        <ul>
+            <li>Corona</li>
+            <li>Headstock</li>
+            <li>Heineken</li>
+        </ul></li>
+        <li>Burger Joints
+        <ul>
+            <li>Five Guys</li>
+            <li>The Burger&apos; Priest</li>
+        </ul></li>
+    </ul>
+    ```
+    
+    - Use Firebase Firestore to manage the data on your page.
+    - There will need to be a Form on the page for managing the categories 
+    - There will need to be a second form for adding an item to a category.
+    - The layout and design are up to you.
+    - Create a private repo on GitHub.
+    - Be sure to create a GitHub Pages branch
+    - Invite Steve to your private repo
+    - Submit a zipped copy of your Repo master branch on Brightspace
+    - In the comments, add the github.io URL for your site.
+    - Due Tuesday October 9th @5pm.
 
 3. 
 
