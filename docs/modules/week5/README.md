@@ -25,5 +25,5 @@
 
 ## What to do Before Week 6
 
-- [YouTube Week 5 Playlist]()
+- [YouTube Week 5 Playlist](https://www.youtube.com/playlist?list=PLyuRouwmQCjkUjgXkd-GHwsZdqtJYsahS)
 - 
