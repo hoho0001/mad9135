@@ -67,7 +67,7 @@ export default App;
 - `cd build` to switch to that folder
 - start a production web server using npx.
 - `npx server`
-- Production build can be seen in your browser @ http://localhost:5000
+- Production build can be seen in your browser @ [http://localhost:5000](http://localhost:5000)
 
 
 ## Adding Brackets to Launch from CLI
