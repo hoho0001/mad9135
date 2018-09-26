@@ -56,7 +56,6 @@
 ```
 
 - `__proto__` (objects) vs `prototype` (function objects)
-- Iterable vs Enumerable
 - JavaScript "Classes"
 
 ```javascript
@@ -170,6 +169,21 @@ for(let val of obj){
     console.log( prop );
 }
 ```
+
+- Iterable vs Enumerable
+- **Enumerable** 
+    - This is largely about Objects
+    - set through property descriptors
+    - affects whether properties appear in a for...in loop
+    - whole object is loaded into memory for the loop
+- **Iterable**
+    - Arrays, Strings, Maps, and Sets have an Iterator object
+    - Objects are not iterable
+    - Objects have a   `keys()`, `values()`, and `entries()` method which give you an array
+    - Objects can have custom iterators created for them
+    - **Iterators** allow us to only load one or a handle of values from the object into memory
+    - Iterators have a `next()` method which return and object `{value:"", done: false}`
+    - The done property will be `true` when the iterator has nothing else to return.
 
 ## Intro to React <Badge text="20 mins" />
 
