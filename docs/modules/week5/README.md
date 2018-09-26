@@ -49,13 +49,6 @@ class SomeThing extends React.Component {
 }
 ```
 
-## PropTypes
-
-- `static propTypes = { }`
-- `static defaultProps = { }`
-- `yarn add prop-types`
-- [React PropTypes video](#)
-
 ## Stateless Functional Components
 
 - When all you need is a render method in your Component Class
@@ -71,6 +64,14 @@ function MyComponent(props) {
     );
 }
 ```
+
+## PropTypes
+
+- `static propTypes = { }`
+- `static defaultProps = { }`
+- `yarn add prop-types`
+- [React PropTypes video](#)
+
 
 ## What to do Before Week 6
 
