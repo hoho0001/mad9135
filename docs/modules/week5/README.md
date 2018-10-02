@@ -70,10 +70,112 @@ function MyComponent(props) {
 - `static propTypes = { }`
 - `static defaultProps = { }`
 - `yarn add prop-types`
-- [React PropTypes video](#)
+- [React PropTypes video](https://www.youtube.com/watch?v=rMDzV07ylTg)
+- 
+
+## React Event Handling
+
+- React has a collection of "Synthetic Events" which are wrappers around the JavaScript native browser events.
+- [React Event video](https://www.youtube.com/watch?v=kdxB1JfTaZ4)
+
+```javascript
+class Thing extends Component{
+    
+    someMethod = (ev) => {
+        //using an arrow function will bind the method to this.
+        ev.preventDefault();
+        //we can access state or props from here
+        //we can update state from here
+    }
+
+    render(){
+        return (
+            <div>
+                <button onClick={this.someMethod}>Click Me</button>
+            </div>
+        )
+    }
+}
+```
+
+## React State
+
+- React Props are for passing data from one Component to another.
+- React State is intended to belong to a Component.
+- State has an initial value and then can be updated
+- State values can be displayed inside your Component `render()` method.
+- When state is updated the Component will be re-rendered.
+- initial state values should be set in the constructor
+- [React State video](https://www.youtube.com/watch?v=V8nfBvDiEA4)
+
+```javascript
+class Thing extends Component{
+    constructor(props){
+        super(props);
+        //initial values for state can come from props
+        this.state = {
+            name: props.name
+        }
+    }
+    
+    someMethod(){
+        let someValue = Date.now().toString();
+        setState({
+            name: someValue
+        })
+    }
+    
+    render(){
+        //do NOT set State here
+    }
+}
+
+```
+
+## React LifeCycle
+
+- When creating a Component there are LifeCycle events that you can hook into
+- On the inital load they are `constructor()` `componentWillMount()` `render()` and `componentDidMount()`
+- When a component is re-rendering you get `shouldComponentUpdate()`, `componentWillUpdate()`, `render()`, and `componentDidUpdate()`
+- `this` is available inside all these methods WITHOUT having to bind anything.
+- [React LifeCycle Video](https://www.youtube.com/watch?v=JYQdJWB8u5I)
+
+```javascript
+class Thing extends Component{
+    constructor(props){
+        super(props);
+        //set initial state values here
+    }
+    componentWillMount(){ }
+                              
+    componentDidMount(){ 
+        //call fetch() here
+    }
+                              
+    shouldComponentUpdate(){ 
+        return true; //or false to continue with the re-render
+    }
+                              
+    componentWillUpdate(){ }
+                              
+    componentDidUpdate(){ 
+        //call fetch here
+    }
+                              
+    render(){
+        //do NOT update state here
+        return (
+            <div>
+            {/* JSX goes here */}
+            </div>
+        )
+    }
+}
+```
+
 
 
 ## What to do Before Week 6
 
 - [YouTube Week 5 Playlist](https://www.youtube.com/playlist?list=PLyuRouwmQCjkUjgXkd-GHwsZdqtJYsahS)
-- 
+- Start Assignment 1
