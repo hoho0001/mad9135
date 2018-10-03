@@ -13,14 +13,14 @@ render(){
     return (
         <React.Fragment>
             <p>React must be imported on the page to use these</p>
-        </React.Fragment
+        </React.Fragment>
     );
 }
 ```
 
 ## React Form Elements
 
-- 
+- Best practice with Forms is to use the `onSubmit` event.
 - [React Form video]()
 
 ## React Refs
