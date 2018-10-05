@@ -67,11 +67,29 @@ function MyComponent(props) {
 
 ## PropTypes
 
-- `static propTypes = { }`
-- `static defaultProps = { }`
-- `yarn add prop-types`
+- A way to test your code during development by making sure that your props are of the correct type and are not missing.
+- To use PropTypes you need to first add the prop-types module to your project
+```
+yarn add prop-types
+//OR
+npm i prop-types
+```
+- then you can use it in your page.
+- At the bottom of the page, below your Component code:
+
+```javascript
+MyComponent.propTypes = { 
+    name: PropType.string,
+    age: PropType.number.isRequired
+}
+
+MyComponent.defaultProps = { 
+    name: 'default value for this.props.name'
+}
+```
+
 - [React PropTypes video](https://www.youtube.com/watch?v=rMDzV07ylTg)
-- 
+
 
 ## React Event Handling
 

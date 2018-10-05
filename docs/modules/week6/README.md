@@ -1,5 +1,15 @@
 # Week 6: React Fragments, Forms, Refs, and Routing
 
+## React Props and State
+
+- props are for passing information from a parent component to a child
+- state is for maintaining local data inside any component.
+- There are places where you can't `setState()`. Like, the `render()`, `componentDidUpdate()`, `componentWillUpdate()`, `componentDidMount()`, or `shouldComponentUpdate()` method. Basically, set the initial value inside the `constructor()` and then only change it inside the methods that you build.
+- Remember that the `constructor()` doesn't run on re-rendering of a component.
+- Props can't be changed after they are passed.
+- [React Props and State video](https://www.youtube.com/watch?v=2Ha_aAOfB4A)
+
+
 ## React Fragments
 
 - Every return value from a `render()` method needs one root element
@@ -18,18 +28,25 @@ render(){
 }
 ```
 
-## React Form Elements
-
-- Best practice with Forms is to use the `onSubmit` event.
-- [React Form video]()
-
 ## React Refs
 
-- 
-- [React Refs video]()
+- Refs are a way that you can reference an element inside your component.
+- They exist because in React, you are not supposed to do anything to the DOM.
+- Don't use `querySelector`, `querySelectorAll`, `getElementById`, etc.
+- If you don't have an event listener on the element, and the content or properties of the element are not being driven by props or state, but you still need to access it, then REFS are the way to go.
+- [React Refs video](https://www.youtube.com/watch?v=tsIZj0q1FlY)
 
 ```javascript
+constructor(){
+    super();
+    this.myThing = React.createRef();
+}
 
+render(){
+    return (
+        <p><input type="text" ref={this.myThing} /></p>
+    )
+}
 ```
 
 ## React Routing
@@ -78,7 +95,13 @@ render(){
 }
 ```
 
+## React Form Elements
+
+- Best practice with Forms is to use the `onSubmit` event.
+- [React Form video]()
+
+
 ## What to do Before Week 7
 
 - Watch the React Videos listed on this page
-- 
+- [Week 6 Playlist](https://www.youtube.com/watch?v=2Ha_aAOfB4A&list=PLyuRouwmQCjkTsUOb3z_ZWsWuWeBmv2jH)
