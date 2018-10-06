@@ -16,7 +16,7 @@
 - In the DOM we have documentFragments to allow us to contain a peice of HTML that we want to render.
 - DocumentFragments do not show up in the DOM after they have been added to the page.
 - React has their own Component to create these.
-- [React Fragments video]()
+- [React Fragments video](https://www.youtube.com/watch?v=_FwfdS568bY)
 
 ```javascript
 render(){
@@ -98,6 +98,7 @@ render(){
 ## React Form Elements
 
 - Best practice with Forms is to use the `onSubmit` event.
+- When your user is updating values inside your form elements, be reactive and use the `onChange` event to save what they are doing as they are doing it.
 - [React Form video]()
 
 

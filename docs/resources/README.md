@@ -8,20 +8,24 @@ We will walk through the setup of installing and using each of these in class. H
 - [git](https://git-scm.com/downloads)
 - [GitHub account](https://github.com/)
 - [GitHub Desktop](https://desktop.github.com/)
+- [GitHub Classroom](https://classroom.github.com/)
 - [Lynda.com](https://lynda.com/)
 - [CodePen](https://codepen.io/)
 - [PluralSight](https://www.pluralsight.com/)
 
 ## Reading
 
-### Required
+- 
 
-### Recommended
+## References
 
+- [React Official Docs](https://reactjs.org/docs/getting-started.html)
+- [ReactStrap](https://reactstrap.github.io/)
 - 
 
 ## Video Tutorials
 
 - [Steve Griffith Channel](https://www.youtube.com/channel/UCTBGXCJHORQjivtgtMsmkAQ/)
 - The tutorial playlist links found in the weekly modules are unlisted. You will not be able to search for them. You will need the direct link.
+- [React video Playlist]()
 

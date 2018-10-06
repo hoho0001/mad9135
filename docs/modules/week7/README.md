@@ -1,40 +1,48 @@
-# Week 7: Testing with Jest
+# Week 7: ReactStrap and AJAX
 
-## Why write automated tests?
+## Making AJAX calls from React
 
-- Isn't that just doubling the work for any new feature?
-- Fast regression testing
-  - Our code dosn't live in isolation. Changes to one module can affect many others ...
-- Confident refactoring ...
-- It can actually save time by focusing on one small problem at a time.
+- When you want to load data from an external source into our React app, we need to be sure to be working in sync with the React LifeCycle.
+- So, either inside the `componentDidMount` or `componentDidUpdate` methods, OR inside a custom method that you have called in response to a user action.
+- 
 
-## Different kinds of tests
 
-- Unit tests
-- Integration tests
-- End-to-end / UI tests
+## Styling your Pages with ReactStrap
 
-## Testing libraries
+- ReactStrap is a tool that will let you add BootStrap 4 styling to your React web apps.
+- [ReactStrap](https://reactstrap.github.io/)
+- To use it you need to install it in your project
+```
+npm i reactstrap
+```
+- OR
+```
+yarn add reactstrap
+```
+- Then you can start to add the ReactStrap components in your Components.
+- Include them just like you would include one of your own.
 
-Test runners, asertions, coverage, mocks and fakes
+```javascript
+import React, {Component} from 'react';
+import { Button } from 'reactstrap';
 
-- Jest
-- Moca
-- Chai
-- Jasmine
-- Karma
-- Ava
-- Protractor
-- Nightwatch
+export default class MyComponent extends Component{
+    render(){
+        return (
+            <Button color="danger">Click Me!</Button>
+        )
+    }
+}
+```
 
-## What is TDD ?
+- Most of the elements that were available in Bootstrap 4 are available here.
+- [Component Reference](https://reactstrap.github.io/components/alerts/)
 
-Test driven development ...
+## React Animations
 
-## What is BDD
+- 
 
-An extension of TDD, behaviour driven development ...
 
-## Exercise
+## What to do Before Week 8
 
-**Installing Jest**
+
