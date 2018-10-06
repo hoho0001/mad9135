@@ -95,6 +95,42 @@ render(){
 }
 ```
 
+## React Router NavLink vs Link
+
+- There are two ways we can add Links in React Router - `<NavLink>` and `<Link>`.
+- `<NavLink>` is a wrapper around `<Link>`.
+- It has all the capabilities of `<Link>` plus some style capabilities.
+- `activeClassName` lets you add a CSS class if the `to` value matches the current URL.
+```javascript
+<NavLink to="/" activeClassName="selected">Link Text</NavLink>
+```
+- `activeStyle` is an object that you can use to add style properties to the element if it matches the current URL. Basically a hack version of activeClassName
+- You can also add a function to run if the link matches the current URL
+
+```javascript
+class MyComponent extends React.Component{
+    
+    oddEvent = (match, location) => {
+      if (!match) {
+        return false
+      }
+      const eventID = parseInt(match.params.eventID)
+      return !isNaN(eventID) && eventID % 2 === 1
+    }
+
+    render(){
+        return (
+            <NavLink
+              to="/events/123"
+              isActive={this.oddEvent}
+            >Event 123</NavLink>
+        )
+    }
+}
+```
+- [NavLink vs Link Video]()
+
+
 ## React Form Elements
 
 - Best practice with Forms is to use the `onSubmit` event.
