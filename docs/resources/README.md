@@ -27,5 +27,5 @@ We will walk through the setup of installing and using each of these in class. H
 
 - [Steve Griffith Channel](https://www.youtube.com/channel/UCTBGXCJHORQjivtgtMsmkAQ/)
 - The tutorial playlist links found in the weekly modules are unlisted. You will not be able to search for them. You will need the direct link.
-- [React video Playlist]()
+- [React video Playlist](https://www.youtube.com/watch?v=223uxFCu74s&list=PLyuRouwmQCjm1N4jlJ7b3WWjDA8MjfDbg)
 
