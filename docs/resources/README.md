@@ -4,7 +4,8 @@
 
 We will walk through the setup of installing and using each of these in class. However, you can get a head-start by reviewing the related documentation links below.
 
-- [Brackets](https://code.visualstudio.com/download)
+- [VS Code](https://code.visualstudio.com/download)
+- [Brackets](https://brackets.io/)
 - [git](https://git-scm.com/downloads)
 - [GitHub account](https://github.com/)
 - [GitHub Desktop](https://desktop.github.com/)
