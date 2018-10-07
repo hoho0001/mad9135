@@ -96,6 +96,20 @@ render(){
 ```
 
 - [Beyond the Basics of Routing video](https://www.youtube.com/watch?v=uBLRO5eUmQw)
+- Here are the main properties that we get passed through `props` from a `<Route>` component to it's child component.
+
+```javascript
+myMethod = (ev) = >{
+    console.log( this.props.match.params ); //object full of url parts
+    console.log( this.props.location.path ); //full url 
+    
+    this.props.history.push('/new/url/');  //add a new entry in the browser history and cause a pageload
+    this.props.history.replace('/new/url/'); //replace the current entry with a new one and reload
+}
+```
+
+- use the React dev tools to see the props and all the possibilities.
+
 
 ## React Router NavLink vs Link
 
