@@ -95,6 +95,8 @@ render(){
 }
 ```
 
+- [Beyond the Basics of Routing video](https://www.youtube.com/watch?v=uBLRO5eUmQw)
+
 ## React Router NavLink vs Link
 
 - There are two ways we can add Links in React Router - `<NavLink>` and `<Link>`.

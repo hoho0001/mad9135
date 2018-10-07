@@ -38,6 +38,7 @@ export default class MyComponent extends Component{
 - Most of the elements that were available in Bootstrap 4 are available here.
 - [Component Reference](https://reactstrap.github.io/components/alerts/)
 
+
 ## React Animations
 
 - 
