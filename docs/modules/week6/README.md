@@ -144,8 +144,9 @@ class MyComponent extends React.Component{
     }
 }
 ```
-- [NavLink vs Link Video]()
-- ![Denzel React Angular Vue jQuery](./denzel-react.jpg)
+- [NavLink vs Link Video](https://www.youtube.com/watch?v=UjAmXiNE68E)
+
+![Denzel React Angular Vue jQuery](./denzel-react.jpg)
 
 
 ## React Form Elements
@@ -153,6 +154,19 @@ class MyComponent extends React.Component{
 - Best practice with Forms is to use the `onSubmit` event.
 - When your user is updating values inside your form elements, be reactive and use the `onChange` event to save what they are doing as they are doing it.
 - [React Form video]()
+
+
+## React conditional Rendering
+
+- JavaScript uses logical short-circuiting to read expressions from left to right. 
+- [Logical Short-Circuiting video](https://www.youtube.com/watch?v=MR0ohAODlOI)
+- [Compound If statements video](https://www.youtube.com/watch?v=OLXyquuM05Q)
+- If everything is expected to be true, then as soon as a false value is encountered nothing else will be processed.
+- [Ternary Operator video](https://www.youtube.com/watch?v=_lEgIImHoM4)
+- [JavaScript in Operator video](https://www.youtube.com/watch?v=HnD6aSu0ev0)
+- We can use ternary operators in React, inside the render method to decide what we want to render.
+- Alternatively we can use logical short-circuiting to create our Conditional Rendering.
+- [Conditional Rendering in React](https://www.youtube.com/watch?v=96lj3ESW1es)
 
 
 ## What to do Before Week 7
