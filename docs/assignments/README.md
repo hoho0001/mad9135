@@ -79,7 +79,7 @@ fetch
 ### Mocha and Chai
 
 - After reading the content and watching the video tutorial on JavaScript Unit Testing with Mocha and Chai on this page [What is Mocha?](../modules/week6/mocha.md) 
-- you will write a test to work for the robot.js script [zip](../robots.zip)
+- You will write a test to work for the robot.js script [zip](../robots.zip)
     - **STEPS**
     1. Create a project folder and add robot.js to that folder.
     2. Inside the project folder create a folder called "test". 
@@ -92,6 +92,7 @@ fetch
 - After all your tests work, submit a zipped copy of your project folder.
 - Compare the output from your test with this image. Your results should be similar to this.
 ![mocha output](./mocha-output.png)
+- Due Oct 19, 2018 @5pm.
 
 ### Webpack
 
