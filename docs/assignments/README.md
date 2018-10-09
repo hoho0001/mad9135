@@ -79,11 +79,11 @@ fetch
 ### Mocha and Chai
 
 - After reading the content and watching the video tutorial on JavaScript Unit Testing with Mocha and Chai on this page [What is Mocha?](../modules/week6/mocha.md) 
-- you will write a test to work for the robot.js script [zip](/robots.zip)
+- you will write a test to work for the robot.js script [zip](/mad9135/robots.zip)
     - **STEPS**
     1. Create a project folder and add robot.js to that folder.
     2. Inside the project folder create a folder called "test". 
-    3. Add the starter file robotTest.js inside the test folder. [zip](/robots.zip)
+    3. Add the starter file robotTest.js inside the test folder. [zip](/mad9135/robots.zip)
     4. Initialize your package.json file with npm and set the test to run "mocha || true"
     5. Use `npm` to `install` and `--save-dev` for mocha and chai (or `yarn add`)
     6. Follow the instructions inside testRobot.js to create the 6 tests for Robot.js
