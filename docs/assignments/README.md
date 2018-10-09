@@ -114,7 +114,7 @@ fetch
 - The finished assignment needs to be submitted as a private repo. 
 - Invite Steve to your repo as a collaborator.
 - Submit the URL of your repo to the assignment folder in Brightspace when you are finished.
-- Due Wed Oct 16, 2018 @ 11:59pm
+- Due Wed Oct 17, 2018 @ 11:59pm
 
 ### Another Assignment
 
