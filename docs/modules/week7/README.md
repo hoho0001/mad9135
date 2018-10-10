@@ -88,11 +88,18 @@ export default class MyComponent extends Component{
 
 ## React Render Props
 
+- If you have two components that are siblings of each other and want to pass information from one to another `render` props is how we achieve this.
 - 
 - [React Render Props video]() ...pending
 
 
 ## React Animations
+
+- To do animations with our React components we can write our own CSS, OR we can use some of the animations that we can import with React.
+
+```javascript
+import {TransitionGroup, CSSTransition} from 'react-transition-group';
+```
 
 - 
 - [React Animations video]() ...pending
