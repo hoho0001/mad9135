@@ -125,6 +125,18 @@ fetch
 
 - This project builds on the concepts from the "Favourite Things" assignment.
 - It adds Routing and the ability to use `fetch()` to retrieve data from a server.
+- Use the data from JSONPlaceHolder: [JSONplaceholder API docs](https://github.com/typicode/jsonplaceholder#available-resources)
+- Your webpage should show a list of all the users on the home page.
+- There needs to be a link from each displayed user for two other values for the selected user.
+- Choose two from `ToDos`, `Posts`, `Albums`, `Photos`, or `Comments`
+- There should be a top-level nav menu that lets the website user see all of the users or all of either of the two elements you choose.
+- React Router should be used for all navigation.
+- clicking the link from each user will show only the elements for that user.
+- While data is being loaded in any component you should have a message/icon/indicator that data is loading. Animated is best because it gets the user's attention.
+- Create a Private Repo to hold your project.
+- Invite Steve to the repo
+- Submit the URL for your GitHub Pages version of the repo.
+- Due Wed Nov 7, 2018 @ 11:59pm
 
 
 ### React Native Project
