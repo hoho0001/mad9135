@@ -4,7 +4,7 @@
 
 - When you want to load data from an external source into our React app, we need to be sure to be working in sync with the React LifeCycle.
 - So, either inside the `componentDidMount` or `componentDidUpdate` methods, OR inside a custom method that you have called in response to a user action.
-- [React AJAX video]()
+- [React AJAX video]() ...pending
 - Here is the Home Component code from the video
 
 ```javascript
@@ -84,18 +84,22 @@ export default class MyComponent extends Component{
 
 - Most of the elements that were available in Bootstrap 4 are available here.
 - [Component Reference](https://reactstrap.github.io/components/alerts/)
-
+- [ReactStrap video]() ...pending
 
 ## React Render Props
 
 - 
+- [React Render Props video]() ...pending
 
 
 ## React Animations
 
 - 
+- [React Animations video]() ...pending
 
 
 ## What to do Before Week 8
 
-
+- Watch all the videos listed on this page
+- Start working on the React Project
+- Continue your work on the 3rd Hybrid
