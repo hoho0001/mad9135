@@ -4,7 +4,54 @@
 
 - When you want to load data from an external source into our React app, we need to be sure to be working in sync with the React LifeCycle.
 - So, either inside the `componentDidMount` or `componentDidUpdate` methods, OR inside a custom method that you have called in response to a user action.
-- 
+- [React AJAX video]()
+- Here is the Home Component code from the video
+
+```javascript
+export default class Home extends Component{
+    constructor(){
+        super();
+        this.state = {
+            list: [],
+            error: null
+        }
+    }
+    
+    buildList =(data)=>{
+        console.log(JSON.stringify(data), null, '\t');
+        this.setState({
+            list: data,
+            error: null
+        })
+    }
+    
+    componentDidMount(){
+        let url = 'https://prof3ssorst3v3.github.io/media-sample-files/products.json';
+        fetch(url)
+        .then(response => response.json())
+        .then(this.buildList)
+        .catch(err => {
+            this.setState({error:err})
+        })
+    }
+    
+    render(){
+        return (
+            <div>
+                <h1>This is HOME</h1>
+                <Header />
+                <ul>{ this.state.list.length &&
+                this.state.list.map((item)=> (
+                    <li key={item.id}>{item.title}</li>
+                ) ) }</ul>
+                {this.state.error &&
+                    <h3>{this.state.error}</h3>
+                }
+            </div>
+        )
+    }
+}
+```
 
 
 ## Styling your Pages with ReactStrap
