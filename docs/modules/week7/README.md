@@ -4,7 +4,7 @@
 
 - When you want to load data from an external source into our React app, we need to be sure to be working in sync with the React LifeCycle.
 - So, either inside the `componentDidMount` or `componentDidUpdate` methods, OR inside a custom method that you have called in response to a user action.
-- [React AJAX video]() ...pending
+- [React AJAX video](https://www.youtube.com/watch?v=xg7NRRdBWzg) 
 - Here is the Home Component code from the video
 
 ```javascript
@@ -56,15 +56,16 @@ export default class Home extends Component{
 
 ## Styling your Pages with ReactStrap
 
-- ReactStrap is a tool that will let you add BootStrap 4 styling to your React web apps.
-- [ReactStrap](https://reactstrap.github.io/)
+- ReactStrap is a tool that will let you add BootStrap style Components as well as Bootstrap 4 styling to your React web apps.
+- [ReactStrap docs](https://reactstrap.github.io/)
+- [Bootstrap docs](http://getbootstrap.com/docs/4.1/getting-started/introduction/)
 - To use it you need to install it in your project
 ```
-npm i reactstrap
+npm i --save reactstrap bootstrap@4.1.3
 ```
 - OR
 ```
-yarn add reactstrap
+yarn add reactstrap bootstrap@4.1.3
 ```
 - Then you can start to add the ReactStrap components in your Components.
 - Include them just like you would include one of your own.
@@ -72,6 +73,7 @@ yarn add reactstrap
 ```javascript
 import React, {Component} from 'react';
 import { Button } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 
 export default class MyComponent extends Component{
     render(){
@@ -84,7 +86,9 @@ export default class MyComponent extends Component{
 
 - Most of the elements that were available in Bootstrap 4 are available here.
 - [Component Reference](https://reactstrap.github.io/components/alerts/)
+- [Text Colour Reference](https://reactstrap.github.io/utilities/colors/)
 - [ReactStrap video]() ...pending
+
 
 ## React Render Props
 
@@ -109,4 +113,4 @@ import {TransitionGroup, CSSTransition} from 'react-transition-group';
 
 - Watch all the videos listed on this page
 - Start working on the React Project
-- Continue your work on the 3rd Hybrid
+- Continue your work on the Mocha Chai Hybrid

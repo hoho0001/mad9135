@@ -1,10 +1,11 @@
 # Week 8: Data persistence
 
-- Relational DB v.s. Document DB
+- localstorage
 - Google Firestore
-- AWS Dynamo
-- MongoDB
+- more fetch middleware
 
-## Exercise
+## What to do Before Week 9
 
-- Hands on with MongoDB
+- Finish Mocha Chai Hybrid
+- Start Webpack Hybrid
+- Work on React Project
