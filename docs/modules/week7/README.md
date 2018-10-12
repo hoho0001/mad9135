@@ -99,13 +99,19 @@ export default class MyComponent extends Component{
 
 ## React Animations
 
-- To do animations with our React components we can write our own CSS, OR we can use some of the animations that we can import with React.
+- To do animations with our React components we can write our own CSS with: `transition`, `transform` and `animation`; OR we can use some of the animations that we can import with React.
 
 ```javascript
 import {TransitionGroup, CSSTransition} from 'react-transition-group';
 ```
 
-- 
+- Those imports will give us the needed code to add the animations.
+- Then we can add them to our elements
+
+```javascript
+
+```
+
 - [React Animations video]() ...pending
 
 
