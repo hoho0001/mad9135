@@ -87,14 +87,14 @@ export default class MyComponent extends Component{
 - Most of the elements that were available in Bootstrap 4 are available here.
 - [Component Reference](https://reactstrap.github.io/components/alerts/)
 - [Text Colour Reference](https://reactstrap.github.io/utilities/colors/)
-- [ReactStrap video]() ...pending
+- [ReactStrap video](https://www.youtube.com/watch?v=JwJfR0mtnCE)
 
 
 ## React Render Props
 
 - If you have two components that are siblings of each other and want to pass information from one to another `render` props is how we achieve this.
 - 
-- [React Render Props video]() ...pending
+- [React Render Props video](https://www.youtube.com/watch?v=Ow4ms1Qg_u4) 
 
 
 ## React Animations
