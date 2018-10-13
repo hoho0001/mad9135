@@ -1,5 +1,6 @@
 # Week 8: Data persistence
 
+- React + Google Maps
 - localstorage
 - Google Firestore
 - more fetch middleware

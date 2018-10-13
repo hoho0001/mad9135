@@ -119,4 +119,5 @@ import {TransitionGroup, CSSTransition} from 'react-transition-group';
 
 - Watch all the videos listed on this page
 - Start working on the React Project
-- Continue your work on the Mocha Chai Hybrid
+- Finish Mocha Chai Hybrid
+- Start Webpack Hybrid
