@@ -108,3 +108,5 @@ export default class MyComponent extends Component{
 - Start working on the React Project
 - Finish Mocha Chai Hybrid
 - Start Webpack Hybrid
+- [MAD9135 Week 7 Playlist](https://www.youtube.com/watch?v=JwJfR0mtnCE&list=PLyuRouwmQCjnq8aIslSyBxrOJPUAD4dxO)
+
