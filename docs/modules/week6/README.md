@@ -1,4 +1,4 @@
-# Week 6: React Fragments, Forms, Refs, and Routing
+# Week 6: React Fragments, Refs, and Forms
 
 ## React Props and State
 

@@ -1,4 +1,4 @@
-# Week 7: ReactStrap and AJAX
+# Week 7: Routing, AJAX, and ReactStrap
 
 ## React Routing
 
