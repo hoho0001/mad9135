@@ -96,7 +96,16 @@ fetch
 
 ### Webpack
 
-- 
+- Webpack is a great tool for carrying out routine tasks with your web projects. It allows you to manage packages that you need for development and distribution, it can process SASS, it can minify and concatenate CSS and JS files, as well as optimize images.
+- This Hybrid requires you to follow along with the instructions in this tutorial
+- [Tutorial web link](https://www.sitepoint.com/bundle-static-site-webpack/)
+- It uses [this repo](https://github.com/sitepoint-editors/webpack-static-site-example) as the sample project.
+- **Submission**
+- Follow the instructions provided in the tutorial and then submit a zipped copy of your `dist` folder from the finished version of the tutorial.
+- Please ALSO submit a copy of your `webpack.config.js` and `package.json` files.
+- It is ok if you have to make multiple submissions OR you can combine the `webpack.config.js`, `package.json` and `dist` folder in the same zip file.
+- Due Nov 2, 2018 5pm
+
 
 ### Hybrid 5
 
