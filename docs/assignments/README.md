@@ -109,6 +109,13 @@ fetch
 
 ### Hybrid 5
 
+- Topic of your choice. Pick one from this list: 
+    - **OAuth**: Build a sample React app that uses OAuth to allow a user to login with either Twitter or Facebook (you only have to implement one of the two)
+    - **Firebase**: Build a sample React app that uses Firebase to store data. The data should be fully editable (CRUD) from the React website.
+    - **Redux**: Research and implement an updated version of your React Project that uses a Redux store to hold and maintain all the data. On the initial load do a fetch call to get all the users. Save the user data in the Redux store. As the user navigates to the different pages, check to see if the data is already in the store. If not, then do a fetch and save the new data in the store as well.
+- Due by Dec 7, 2018 @5pm
+
+
 
 ## Assignments <Badge text="30%"/>
 
@@ -125,7 +132,9 @@ fetch
 - Submit the URL of your repo to the assignment folder in Brightspace when you are finished.
 - Due Wed Oct 17, 2018 @ 11:59pm
 
-### Another Assignment
+### PWA Assignment
+
+- 
 
 
 ## Projects <Badge text="40%"/>
@@ -135,7 +144,7 @@ fetch
 - This project builds on the concepts from the "Favourite Things" assignment.
 - It adds Routing and the ability to use `fetch()` to retrieve data from a server.
 - Use the data from JSONPlaceHolder: [JSONplaceholder API docs](https://github.com/typicode/jsonplaceholder#available-resources)
-- Your webpage should show a list of all the users on the home page.
+- Your webpage should show a list of all the `users` on the home page.
 - There needs to be a link from each displayed user for two other values for the selected user.
 - Choose two from `ToDos`, `Posts`, `Albums`, `Photos`, or `Comments`
 - There should be a top-level nav menu that lets the website user see all of the users or all of either of the two elements you choose.
@@ -149,3 +158,5 @@ fetch
 
 
 ### React Native Project
+
+- 
