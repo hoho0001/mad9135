@@ -188,16 +188,6 @@ export default class MyComponent extends Component{
 - [ReactStrap video](https://www.youtube.com/watch?v=JwJfR0mtnCE)
 
 
-## React Render Props
-
-- If you have two components that are siblings of each other and want to pass information from one to another `render` props is how we achieve this.
-- You need to have a parent component. It will have the prop, typically but not necessarily called `render`. This prop will be a function.
-- The function gets called from inside the parent component to render one or more other components.
-- The child components can have access to anything you want to pass from the parent to the child components.
-- Passing the State of the parent is a typical action.
-- [React Render Props video](https://www.youtube.com/watch?v=Ow4ms1Qg_u4) 
-
-
 
 
 ## What to do Before Week 8
