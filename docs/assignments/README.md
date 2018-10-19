@@ -110,7 +110,7 @@ fetch
 ### Hybrid 5
 
 - Topic of your choice. Pick one from this list: 
-    - **OAuth**: Build a sample React app that uses OAuth to allow a user to login with either Twitter or Facebook (you only have to implement one of the two)
+    - **OAuth**: Build a sample React app that uses OAuth to allow a user to login with either Twitter or Facebook (you only have to implement one of the two) [oauth/react tutorial](https://www.youtube.com/watch?v=f5OLDvwP-Ug)
     - **Firebase**: Build a sample React app that uses Firebase to store data. The data should be fully editable (CRUD) from the React website.
     - **Redux**: Research and implement an updated version of your React Project that uses a Redux store to hold and maintain all the data. On the initial load do a fetch call to get all the users. Save the user data in the Redux store. As the user navigates to the different pages, check to see if the data is already in the store. If not, then do a fetch and save the new data in the store as well.
 - Due by Dec 7, 2018 @5pm
