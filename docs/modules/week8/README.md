@@ -19,6 +19,14 @@ import {TransitionGroup, CSSTransition} from 'react-transition-group';
 - [React transition group github reference](https://github.com/reactjs/react-transition-group/tree/v1-stable)
 - [React Animations video]() ...pending
 
+## React Passing Functions to Components
+
+- Sometimes you will have `state` values stored in a parent Component that you want to change when a user interacts with a child Component.
+The function to change the `state` must be in the same Component as the `state` values to be changed.
+- We can use `props` to pass the function down to the child Component.
+- Then a function in the child component can trigger the function which was passed through `props`.
+- [Passing Functions video](https://www.youtube.com/watch?v=c05OL7XbwXU)
+
 
 ## React Render Props
 
