@@ -19,6 +19,7 @@ import {TransitionGroup, CSSTransition} from 'react-transition-group';
 - [React transition group github reference](https://github.com/reactjs/react-transition-group/tree/v1-stable)
 - [React Animations video]() ...pending
 
+
 ## React Passing Functions to Components
 
 - Sometimes you will have `state` values stored in a parent Component that you want to change when a user interacts with a child Component.
@@ -45,8 +46,31 @@ The function to change the `state` must be in the same Component as the `state` 
 
 
 ## React and LocalStorage
-- localstorage
-- [React LocalStorage video]() ...pending
+
+- localStorage works in much the same way as making AJAX calls.
+- We wait for the `componentDidMount` event to check localstorage and then decide if we want to update `state` or make an AJAX call.
+- We need to check and see if the localStorage key exists and if it does then we can update a value inside our our local `state`.
+
+```javascript
+class Item extends Component
+    constructor(){
+        super();
+        this.state = {
+            thing: 'some value'
+        }
+    }
+
+    componentDidMount(){
+        let thingLS = localStorage.getItem('MyKEY');
+        if(thingLS){
+            thingVal = JSON.parse(thingLS);
+            this.setState({thing: thingVal});
+        }
+    }   
+}
+```
+
+- [React LocalStorage video](https://www.youtube.com/watch?v=NGobLfCPxa8) 
 
 
 ## What to do Before Week 9
