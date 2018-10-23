@@ -1,24 +1,5 @@
 # Week 8: React Miscellaneous
 
-## React Animations
-
-- To do animations with our React components we can write our own CSS with: `transition`, `transform` and `animation`; OR we can use some of the animations that we can import with React.
-
-```javascript
-import {TransitionGroup, CSSTransition} from 'react-transition-group';
-```
-
-- Those imports will give us the needed code to add the animations.
-- Then we can add them to our elements
-
-```javascript
-
-```
-
-- [React animation reference](https://reactjs.org/docs/animation.html)
-- [React transition group github reference](https://github.com/reactjs/react-transition-group/tree/v1-stable)
-- [React Animations video]() ...pending
-
 
 ## React Passing Functions to Components
 
@@ -41,8 +22,9 @@ The function to change the `state` must be in the same Component as the `state` 
 
 
 ## React and Google Maps
+
+- Extra material learning about how to integrate Google Maps API with React.
 - [React + Google Maps Tutorial](https://scotch.io/tutorials/react-apps-with-the-google-maps-api-and-google-maps-react)
-- 
 
 
 ## React and LocalStorage
@@ -71,6 +53,26 @@ class Item extends Component
 ```
 
 - [React LocalStorage video](https://www.youtube.com/watch?v=NGobLfCPxa8) 
+
+
+## React Animations
+
+- To do animations with our React components we can write our own CSS with: `transition`, `transform` and `animation`; OR we can use some of the animations that we can import with React.
+
+```javascript
+import {TransitionGroup, CSSTransition} from 'react-transition-group';
+```
+
+- Those imports will give us the needed code to add the animations.
+- Then we can add them to our elements
+
+```javascript
+    
+```
+
+- [React animation reference](https://reactjs.org/docs/animation.html)
+- [React transition group github reference](https://github.com/reactjs/react-transition-group/tree/v1-stable)
+- [React Animations video]() ...pending
 
 
 ## What to do Before Week 9
