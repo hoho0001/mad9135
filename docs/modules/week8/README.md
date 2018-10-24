@@ -60,7 +60,10 @@ class Item extends Component
 - To do animations with our React components we can write our own CSS with: `transition`, `transform` and `animation`; OR we can use some of the animations that we can import with React.
 
 ```javascript
-import {TransitionGroup, CSSTransition} from 'react-transition-group';
+import {TransitionGroup, CSSTransition, Transition} from 'react-transition-group';
+//NOT the following
+import { CSSTransitionGroup, TransitionGroup } from 'react-transition-group';
+//This second one is from an OLD 1.x version
 ```
 
 - Those imports will give us the needed code to add the animations.
