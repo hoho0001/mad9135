@@ -6,6 +6,7 @@
 - To do animations with our React components we can write our own CSS with: `transition`, `transform` and `animation`; OR we can use some of the animations that we can import with React.
 
 ```javascript
+//Use this import
 import {TransitionGroup, CSSTransition, Transition} from 'react-transition-group';
 //NOT the following
 import { CSSTransitionGroup, TransitionGroup } from 'react-transition-group';
@@ -20,7 +21,7 @@ import { CSSTransitionGroup, TransitionGroup } from 'react-transition-group';
 ```
 
 - [React NEW animation reference](https://reactcommunity.org/react-transition-group/)
-- [React OLD transition group github reference from version 1.x](https://github.com/reactjs/react-transition-group/tree/v1-stable)
+- [React OLD transition group github reference for version 1.x](https://github.com/reactjs/react-transition-group/tree/v1-stable)
 - [React Animations video]() ...pending
 
 

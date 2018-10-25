@@ -1,12 +1,11 @@
-# Week 14: Advanced topics
+# Week 14: React Native
 
-- Peer review
-- Final projects due
+## Final Project Work
 
-### Bonus Topics (time permitting)
+- 
 
-- Push notifications
-- GraphQL
-- Auth0
-- Cloudinary
-- HTTP/2
+## Redux
+
+- Future study on Redux
+- **Free** Redux course from Wes Bos [Redux Course](https://learnredux.com/)
+- 

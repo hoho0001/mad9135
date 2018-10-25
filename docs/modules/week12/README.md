@@ -1,8 +1,5 @@
-# Week 12: Real-time Web
+# Week 12: React Native
 
-## Websockets
+## React Native
 
-- Bidirectional communication
-- Event driven
-
-## Exercise
+- 
