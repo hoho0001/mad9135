@@ -92,7 +92,7 @@ fetch
 - After all your tests work, submit a zipped copy of your project folder.
 - Compare the output from your test with this image. Your results should be similar to this.
 ![mocha output](./mocha-output.png)
-- Due Oct 19, 2018 @5pm.
+- Due Oct 26, 2018 @5pm.
 
 ### Webpack
 
@@ -104,7 +104,7 @@ fetch
 - Follow the instructions provided in the tutorial and then submit a zipped copy of your `dist` folder from the finished version of the tutorial.
 - Please ALSO submit a copy of your `webpack.config.js` and `package.json` files.
 - It is ok if you have to make multiple submissions OR you can combine the `webpack.config.js`, `package.json` and `dist` folder in the same zip file.
-- Due Nov 2, 2018 5pm
+- Due Nov 9, 2018 5pm
 
 
 ### Hybrid 5
@@ -130,11 +130,12 @@ fetch
 - The finished assignment needs to be submitted as a private repo. 
 - Invite Steve to your repo as a collaborator.
 - Submit the URL of your repo to the assignment folder in Brightspace when you are finished.
-- Due Wed Oct 17, 2018 @ 11:59pm
+- Due Wed Oct 24, 2018 @ 11:59pm
 
 ### PWA Assignment
 
 - 
+- Due Nov 28, 2018 @ 5pm
 
 
 ## Projects <Badge text="40%"/>
@@ -160,3 +161,4 @@ fetch
 ### React Native Project
 
 - 
+- Due Dec 12, 2018 @ 5pm
