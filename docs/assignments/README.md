@@ -152,6 +152,7 @@ fetch
 - React Router should be used for all navigation.
 - clicking the link from each user will show only the elements for that user.
 - While data is being loaded in any component you should have a message/icon/indicator that data is loading. Animated is best because it gets the user's attention.
+- ![Project Screenshot](./react-fetch.gif)
 - Create a Private Repo to hold your project.
 - Invite Steve to the repo
 - Submit the URL for your GitHub Pages version of the repo.

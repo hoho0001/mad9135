@@ -28,4 +28,5 @@ import { CSSTransitionGroup, TransitionGroup } from 'react-transition-group';
 ## Intro to PWA
 
 - What is a PWA?
+- [Google Official PWA Training site](https://developers.google.com/web/ilt/pwa/)
 - 
