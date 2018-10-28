@@ -64,6 +64,7 @@ import { CSSTransitionGroup, TransitionGroup } from 'react-transition-group';
 - [React Animations video](https://www.youtube.com/watch?v=BZRyIOrWfHU) tutorial by iHateTomatoes.
 
 
+
 ## Intro to PWA
 
 - What is a PWA?
@@ -77,6 +78,8 @@ import { CSSTransitionGroup, TransitionGroup } from 'react-transition-group';
 - **Installable** on the home screen of mobile devices
 - **Shareable** via URL instead of through app stores.
 - Great introduction to PWAs by Jake Archibald from Google [Video Link](https://www.youtube.com/watch?v=cmGr0RszHc8)
+- Recent talk about PWAs by Simon MacDonald (from Ottawa) [Video Link](https://www.youtube.com/watch?v=2kv9tH_IYtQ)
+
 
 ## To Do Before Week 10
 
