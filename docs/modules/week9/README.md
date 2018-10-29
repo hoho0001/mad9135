@@ -79,7 +79,7 @@ import { CSSTransitionGroup, TransitionGroup } from 'react-transition-group';
 - **Shareable** via URL instead of through app stores.
 - Great introduction to PWAs by Jake Archibald from Google [Video Link](https://www.youtube.com/watch?v=cmGr0RszHc8)
 - Recent talk about PWAs by Simon MacDonald (from Ottawa) [Video Link](https://www.youtube.com/watch?v=2kv9tH_IYtQ)
-
+- FREE Udacity course by Jake Archibald on [Creating Offline Apps](https://www.udacity.com/course/offline-web-applications--ud899)
 
 ## To Do Before Week 10
 
