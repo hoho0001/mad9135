@@ -100,17 +100,6 @@ yarn build
     
     ```js
     "homepage": "https://username.github.io/repo-name",
-    ```
-    
-    - install gh-pages with npm
-    
-    ```
-    yarn add gh-pages
-    ```
-    
-    - Update your package.json file to add predeploy and deploy scripts.
-    
-    ```js
     "scripts":{
         "predeploy":"npm run build",
         "deploy":"gh-pages -d build",
@@ -119,8 +108,14 @@ yarn build
     }
     ```
     
+    - install gh-pages with npm
+    
+    ```
+    yarn add gh-pages
+    ```
+    
     - The predeploy script will be run automatically when you run `npm run deploy` or `yarn run deploy`
-    - Set up your Github Repo locally and then push to the server.
+    - Follow the normal steps to set up your Github Repo locally and then push to the server.
     
     ```
     git init
@@ -129,9 +124,20 @@ yarn build
     git remote add origin https://github.com/USER-NAME/REPO-NAME.git
     git push -u origin master
     ```
-    - Go to your GitHub repo and set the gh-pages branch as the source for the gh-pages website.
-    - When you run `yarn run deploy` you will see a cheatsheet with instructions.
+    - Go to your GitHub repo, AFTER pushing to the repo, and set the gh-pages branch as the source for the gh-pages website by adding a `gh-pages` branch.
+    - When you run `yarn run deploy` you will see a cheatsheet with further instructions and information.
+    - Visit `https://USER-NAME.github.io/REPO-NAME/` to see your React site working.
     
+- To fix the routing replace any `<BrowserRouter>` with a `<HashRouter>` and add the basename as above.
+
+```js
+<HashRouter basename="/calendar"/>
+<Link to="/today"/> // renders <a href="#/calendar/today">
+```
+- [HashRouter reference](https://reacttraining.com/react-router/web/api/HashRouter)
+
+
+
 
 ## Intro to PWA
 
