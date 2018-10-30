@@ -64,6 +64,74 @@ import { CSSTransitionGroup, TransitionGroup } from 'react-transition-group';
 - [React Animations video](https://www.youtube.com/watch?v=BZRyIOrWfHU) tutorial by iHateTomatoes.
 
 
+## Production Builds of React
+
+- The development build for React has the service worker to keep updating the browser with every save. It also makes no attempt to minify anything.
+- The production build, which is created from the CLI with:
+
+```
+npm run build
+```
+
+- or
+
+```
+yarn build
+```
+
+- [npm build Reference](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment)
+- [React build Reference](https://facebook.github.io/create-react-app/docs/deployment)
+- Running the command `npm run build` will create a build folder, minimize your project and copy the files into this build folder. You can put the contents of this folder on the webserver as your website.
+
+### GitHub Hosting Notes
+- If you are hosting on GitHub then `BrowserRouter` will fail. GitHub doesn't support intercepting the routes. You will need to use `HashRouter` instead.
+- This means that a path like `https://www.example.com/kids/123` would have to be written like `https://www.example.com/#kids/123` instead.
+- [Hashrouter referece](https://reacttraining.com/react-router/web/api/HashRouter)
+
+- To point to a subfolder as the base of your website, you would have to edit the `<BrowserRouter>` element to point to the new root. (Problems with this on gh-pages)
+
+```js
+<BrowserRouter basename="/calendar"/>
+<Link to="/today"/> // renders <a href="/calendar/today">
+```
+
+- To host on Github pages you will need to:
+    - add to your `package.json` file
+    
+    ```js
+    "homepage": "https://username.github.io/repo-name",
+    ```
+    
+    - install gh-pages with npm
+    
+    ```
+    yarn add gh-pages
+    ```
+    
+    - Update your package.json file to add predeploy and deploy scripts.
+    
+    ```js
+    "scripts":{
+        "predeploy":"npm run build",
+        "deploy":"gh-pages -d build",
+        "start":"react-scripts start",
+        "build":"react-scripts build"
+    }
+    ```
+    
+    - The predeploy script will be run automatically when you run `npm run deploy` or `yarn run deploy`
+    - Set up your Github Repo locally and then push to the server.
+    
+    ```
+    git init
+    git add -A
+    git commit -m "Add React project files"
+    git remote add origin https://github.com/USER-NAME/REPO-NAME.git
+    git push -u origin master
+    ```
+    - Go to your GitHub repo and set the gh-pages branch as the source for the gh-pages website.
+    - When you run `yarn run deploy` you will see a cheatsheet with instructions.
+    
 
 ## Intro to PWA
 
