@@ -135,7 +135,7 @@ yarn build
 <Link to="/today"/> // renders <a href="#/calendar/today">
 ```
 - [HashRouter reference](https://reacttraining.com/react-router/web/api/HashRouter)
-
+- [Deploying Production Build React App on gh-pages video](https://www.youtube.com/watch?v=517npPWIb8Q)
 
 
 
@@ -154,6 +154,8 @@ yarn build
 - Great introduction to PWAs by Jake Archibald from Google [Video Link](https://www.youtube.com/watch?v=cmGr0RszHc8)
 - Recent talk about PWAs by Simon MacDonald (from Ottawa) [Video Link](https://www.youtube.com/watch?v=2kv9tH_IYtQ)
 - FREE Udacity course by Jake Archibald on [Creating Offline Apps](https://www.udacity.com/course/offline-web-applications--ud899)
+
+
 
 ## To Do Before Week 10
 
