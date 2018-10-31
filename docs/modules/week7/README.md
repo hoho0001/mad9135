@@ -22,8 +22,9 @@ render(){
     <BrowserRouter>
         <Switch>
             <Route exact path="/" component={Home} />
-            <Route  path="/other" component={Other} />
-            <Route  path="/things/:thingID" component={Things} />
+            <Route exact path="/other" component={Other} />
+            <Route exact path="/things" component={Things} />
+            <Route path="/things/:thingID" component={Things} />
             <Route component={NotFound} />
         </Switch>
     </BrowserRouter>
