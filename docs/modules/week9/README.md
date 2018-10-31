@@ -24,7 +24,7 @@ import { CSSTransitionGroup, TransitionGroup } from 'react-transition-group';
     in={true}
     appear={true}
     timeout={600}
-    classNames={mykeyword} >
+    classNames="mykeyword" >
         <ThingToAnimate />
 </CSSTransition>
 ```
@@ -62,6 +62,7 @@ import { CSSTransitionGroup, TransitionGroup } from 'react-transition-group';
 - [React NEW animation reference version 2.x](https://reactcommunity.org/react-transition-group/)
 - [React OLD transition group github reference for version 1.x](https://github.com/reactjs/react-transition-group/tree/v1-stable)
 - [React Animations video](https://www.youtube.com/watch?v=BZRyIOrWfHU) tutorial by iHateTomatoes.
+- [React Animation video](https://www.youtube.com/watch?v=dwIyD0xaN_0) tutorial by Steve
 
 
 ## Production Builds of React
