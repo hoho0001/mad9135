@@ -162,3 +162,8 @@ yarn build
 - Watch the videos on ReactStrap and React Animations and see if you can integrate them into your React Project
 - Finish the Work on your React Project
 - Watch the Introduction video for PWAs to prepare for Week 10
+- Learn about Pair Programming with these videos
+- [What is Pair Programming](https://www.youtube.com/watch?v=YhV4TaZaB84)
+- [Bitbucket Pair Programming](https://www.youtube.com/watch?v=dYBjVTMUQY0) :D
+- [Experienced Programmers demonstrating Pair Programming](https://www.youtube.com/watch?v=zFO1cRr5-qY)
+- [Another intro to Pair Programming](https://www.youtube.com/watch?v=ET3Q6zNK3Io)
