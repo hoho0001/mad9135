@@ -19,6 +19,13 @@ render() {
 }
 ```
 
+::: tip
+Everything in your React website is a Component.
+
+To be effective at using React you need to think about your page in terms of Components.
+:::
+
+
 ## Passing Data between Components
 
 - `this.props`
@@ -49,6 +56,13 @@ class SomeThing extends React.Component {
 }
 ```
 
+::: tip
+Props are how we pass everything from one Component to another.
+
+Props can be Strings, Numbers, Booleans, Arrays, Objects, or even functions.
+:::
+
+
 ## Stateless Functional Components
 
 - When all you need is a render method in your Component Class
@@ -64,6 +78,13 @@ function MyComponent(props) {
     );
 }
 ```
+
+::: tip
+Stateless Functional Components are an alternative to classes when creating Components.
+
+The functions cannot use state or any of the LifeCycle methods.
+:::
+
 
 ## PropTypes
 
@@ -115,6 +136,12 @@ class Thing extends Component{
     }
 }
 ```
+::: tip
+React has many Synthetic Events that you can use in your components.
+
+[Synthetic Event Reference](https://reactjs.org/docs/events.html)
+:::
+
 
 ## React State
 
@@ -147,8 +174,8 @@ class Thing extends Component{
         //do NOT set State here
     }
 }
-
 ```
+
 
 ## React LifeCycle
 
@@ -195,5 +222,7 @@ class Thing extends Component{
 
 ## What to do Before Week 6
 
+::: warning TODO
 - [YouTube Week 5 Playlist](https://www.youtube.com/playlist?list=PLyuRouwmQCjkUjgXkd-GHwsZdqtJYsahS)
 - Start Assignment 1
+:::

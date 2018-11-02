@@ -177,5 +177,7 @@ return (
 
 ## What to do Before Week 5
 
+::: warning TODO
+- Watch the week 4 playlist
 - [YouTube Week 4 Playlist](https://www.youtube.com/playlist?list=PLyuRouwmQCjmEBy2Bmrgs83IrkHYCLk70)
-- 
+:::

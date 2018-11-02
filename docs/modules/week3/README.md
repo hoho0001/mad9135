@@ -5,6 +5,7 @@
 - Select a Level 3 Class Rep Today
 - There will be a single class rep to represent all the level 3 students this year.
 
+
 ## Git and CLI <Badge text="20 mins" />
 
 - Turning a Project into a Repo
@@ -25,9 +26,13 @@
 - Command line open file in VSCode `code main.js`
 - See Notes in Week 4 Module for how to add brackets or VS Code to the PATH
 
+
 ## ES6 Features <Badge text="60 mins" />
 
 - Questions from Week 2 topics or videos
+
+### JavaScript keyword this
+
 - `this` in functions and arrow functions
 
 ```javascript
@@ -56,7 +61,8 @@
 ```
 
 - `__proto__` (objects) vs `prototype` (function objects)
-- JavaScript "Classes"
+
+### JavaScript "Classes"
 
 ```javascript
 class Dog extends Animal{
@@ -80,7 +86,7 @@ woofy.bark();
 Dog.howl(); 
 ```
 
-- `import` and `export` in ES6
+### `import` and `export` in ES6
 
 ```javascript
 //main.js
@@ -112,7 +118,7 @@ function funcB(){
 export {funcA, KEY};
 ```
 
-- Iterators and Generators
+### Iterators and Generators
 
 ```javascript
 //generator functions
@@ -170,7 +176,8 @@ for(let val of obj){
 }
 ```
 
-- Iterable vs Enumerable
+### Iterable vs Enumerable
+
 - **Enumerable** 
     - This is largely about Objects
     - set through property descriptors
@@ -184,6 +191,7 @@ for(let val of obj){
     - **Iterators** allow us to only load one or a handle of values from the object into memory
     - Iterators have a `next()` method which return and object `{value:"", done: false}`
     - The done property will be `true` when the iterator has nothing else to return.
+
 
 ## Intro to React <Badge text="20 mins" />
 
@@ -214,12 +222,15 @@ npx create-react-app my-sample-app
 ```
 - Alternate tools for creating React Apps
 - [React Docs for other tools](https://reactjs.org/docs/create-a-new-react-app.html)
-
+::: tip
+Using npx to run create-react-app means that you will always be getting the latest version of React.
+:::
 
 
 ## What to do Before Week 4 <Badge text="90 mins" />
 
+::: warning TODO
 - [Week 2/3 Youtube Tutorial Playlist](https://www.youtube.com/watch?v=QtGbcvZ6774&list=PLyuRouwmQCjnc5Fr3alMwdMZWdWWH_m6p)
 - Same list as last week.
 - [Continue first Hybrid Assignment](../../assignments/)
-- 
+:::

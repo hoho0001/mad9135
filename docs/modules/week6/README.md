@@ -75,5 +75,7 @@ render(){
 
 ## What to do Before Week 7
 
+::: warning TODO
 - Watch the React Videos listed on this page
 - [Week 6 Playlist](https://www.youtube.com/watch?v=2Ha_aAOfB4A&list=PLyuRouwmQCjkTsUOb3z_ZWsWuWeBmv2jH)
+:::
