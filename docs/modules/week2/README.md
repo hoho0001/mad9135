@@ -77,7 +77,9 @@ let lenS = s.size;
 
 ## What to do Before Week 3 <Badge text="90 mins"/>
 
+::: warning TODO
 - [YouTube Week 2/3 Tutorial Playlist](https://www.youtube.com/watch?v=QtGbcvZ6774&list=PLyuRouwmQCjnc5Fr3alMwdMZWdWWH_m6p)
 - [FunFunFunction Object Creation Playlist](https://www.youtube.com/watch?v=GhbhD1HR5vk&index=1&list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub)
     - Make sure you watch MPJ @ 1.5x speed
 - [Start first Hybrid Assignment](../../assignments/)
+:::

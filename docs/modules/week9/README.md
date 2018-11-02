@@ -17,7 +17,11 @@ import { CSSTransitionGroup, TransitionGroup } from 'react-transition-group';
 - Those imports will give us the needed code to add the animations.
 - `CSSTransition` extends `Transition`. We don't usually need `Transition`
 - Then we can add them to our elements.
+
+::: tip
 - If you are animating a single element then you can just use `CSSTransition`
+- If you have a collection of elements and want to animate the elements one at a time then  wrap them in a `TransitionGroup`
+:::
 
 ```js
 <CSSTransition
@@ -160,6 +164,7 @@ yarn build
 
 ## To Do Before Week 10
 
+::: warning TODO
 - Watch the videos on ReactStrap and React Animations and see if you can integrate them into your React Project
 - Finish the Work on your React Project
 - Watch the Introduction video for PWAs to prepare for Week 10
@@ -168,3 +173,4 @@ yarn build
 - [Bitbucket Pair Programming](https://www.youtube.com/watch?v=dYBjVTMUQY0) :D
 - [Experienced Programmers demonstrating Pair Programming](https://www.youtube.com/watch?v=zFO1cRr5-qY)
 - [Another intro to Pair Programming](https://www.youtube.com/watch?v=ET3Q6zNK3Io)
+:::

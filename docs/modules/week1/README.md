@@ -49,7 +49,8 @@
 
 ## What to do before Week 2 <Badge text="90 mins"/>
 
+::: warning TODO
 - [Week 1 JS Concept Review Playlist](https://www.youtube.com/watch?v=HukePwm-XG8&list=PLyuRouwmQCjkHFke6PXjBc5oEZ7Dk0-yi)
 - [Install VS Code from](https://code.visualstudio.com/download)
-
+:::
 
