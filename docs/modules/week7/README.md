@@ -196,9 +196,9 @@ export default class MyComponent extends Component{
 ## What to do Before Week 8
 
 ::: warning TODO
-Watch all the videos listed on this page
-Start working on the React Project
-Finish Mocha Chai Hybrid
-Start Webpack Hybrid
-[MAD9135 Week 7 Playlist](https://www.youtube.com/watch?v=JwJfR0mtnCE&list=PLyuRouwmQCjnq8aIslSyBxrOJPUAD4dxO)
+- Watch all the videos listed on this page
+- Start working on the React Project
+- Finish Mocha Chai Hybrid
+- Start Webpack Hybrid
+- [MAD9135 Week 7 Playlist](https://www.youtube.com/watch?v=JwJfR0mtnCE&list=PLyuRouwmQCjnq8aIslSyBxrOJPUAD4dxO)
 :::
