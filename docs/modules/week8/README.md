@@ -57,7 +57,9 @@ class Item extends Component
 
 ## What to do Before Week 9
 
+::: warning TODO
 - Watch all the video links on this page
 - Read the tutorial links provided on this page
 - Start Webpack Hybrid
 - Work on React Project
+:::
