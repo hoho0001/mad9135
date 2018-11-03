@@ -224,6 +224,7 @@ self.addEventListener('fetch', (ev)=>{
 - You can see that even this simple example has a LOT of boilerplate code to handle a few files and requests.
 - There are also other events that can happen in the third phase after the service worker has been activated.
 - These events are `sync`, `push`, `message`, and `statechange`.
+- Initial **LIMITED** support for manifest.json files was added in iOS 11.3.
 
 ::: danger iOS Warning
 Apple has done a terrible job of staying up to date with PWA technology.
