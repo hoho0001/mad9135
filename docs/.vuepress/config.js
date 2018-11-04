@@ -3,6 +3,9 @@ module.exports = {
   description: 'HTML5 App Development',
   base: '/mad9135/',
   themeConfig: {
+    serviceWorker: {
+      updatePopup: true
+    },
     lastUpdated: 'Last Updated: ',
     nav: [{
         text: 'Overview',
