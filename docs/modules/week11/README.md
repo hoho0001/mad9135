@@ -64,6 +64,7 @@ const styles = StyleSheet.create({
 
 - The Styles are added through JavaScript. The Style properties are NOT CSS. They are a special set of CSS-like properties available through the imported StyleSheet object.
 - [StyleSheet property reference](https://github.com/vhpoet/react-native-styling-cheat-sheet)
+- [List of React Native Components](https://facebook.github.io/react-native/docs/components-and-apis)
 
 
 ## What to do Before Week 12
@@ -72,4 +73,5 @@ const styles = StyleSheet.create({
 - Finish working on the PWA app with your partner
 - Work on your final Hybrid Exercise
 - Review the notes on React Native
+- Experiment and Practice creating a basic React Native app
 :::
