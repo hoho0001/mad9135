@@ -28,7 +28,7 @@ if ('serviceWorker' in navigator) {
 ```
 
 ::: tip
-    We never want to ask the user to install as soon as they arrive at the site.
+We never want to ask the user to install as soon as they arrive at the site.
 :::
 
 - Here is a script that will intercept that event and store it so we can call the prompt later on.
@@ -225,7 +225,7 @@ self.addEventListener('fetch', (ev)=>{
 
 - You can see that even this simple example has a LOT of boilerplate code to handle a few files and requests.
 - There are also other events that can happen in the third phase after the service worker has been activated.
-- These events are `sync`, `push`, `message`, and `statechange`.
+- These other events include `sync`, `push`, `message`, and `statechange`.
 - Initial **LIMITED** support for manifest.json files was added in iOS 11.3.
 
 ::: danger iOS Warning
@@ -252,5 +252,5 @@ iOS 12.1 still fails to let PWAs access file inputs, the camera, or getUserMedia
 
 ::: warning TODO
 - Select your Pairs Programming partner (Someone you do not usually work with) and tell your professor who it is.
-- Start to work on your Progressive Web App
+- Start to work on your [Progressive Web App](../assignments/)
 :::
