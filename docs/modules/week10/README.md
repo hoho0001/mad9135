@@ -27,8 +27,10 @@ if ('serviceWorker' in navigator) {
 <link rel="manifest" href="./manifest.json" />
 ```
 
-- Sometimes we don't want to ask the user to install the website immediately on first load*.
-- * Means we never want to do this.
+::: tip
+    We never want to ask the user to install as soon as they arrive at the site.
+:::
+
 - Here is a script that will intercept that event and store it so we can call the prompt later on.
 
 ```js
