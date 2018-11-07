@@ -134,7 +134,21 @@ fetch
 
 ### PWA Assignment
 
-- 
+- Pick a partner in class who is someone that you do not normally work with. You will be doing Pairs Programming with person.
+- Tell your instructor who your partner is.
+- Create a SIMPLE offline-first PWA with your partner.
+- Use the Google library [Workbox](https://developers.google.com/web/tools/workbox/guides/get-started) to create your app.
+- Part of this assignment will be researching how to use WorkBox... hence the partner.
+- You might want to use [LightHouse](https://developers.google.com/web/tools/lighthouse/) as a dev tool in Chrome when working with the PWA.
+- The app needs to have:
+    - A home page that the user needs to be connected to see
+    - A home page that is displayed if the user is offline. This page will be loaded from the cache.
+    - The offline page needs to have at least one image which is also cached.
+    - Use a different image on the home page if the user is offline vs online.
+    - All the offline files should be saved after installing the service worker.
+    - If the app is online then it should fetch a JSON file from an API of your choice. Make sure that the data you are fetching will be different on a regular basis. Think of something like Weather data.
+    - When the first call to the API is made, cache the response JSON file.
+    - When the app is offline, use the cached version of the last JSON file fetched.
 - Due Nov 28, 2018 @ 5pm
 
 
