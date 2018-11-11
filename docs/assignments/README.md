@@ -175,5 +175,7 @@ fetch
 
 ### React Native Project
 
+- For this project you will need to choose a different pairs programming partner than you had for your PWA assignment.
+- Let your instructor know who your partner will be.
 - 
 - Due Dec 12, 2018 @ 5pm
