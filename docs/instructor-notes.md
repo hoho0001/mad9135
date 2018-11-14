@@ -3,6 +3,8 @@
 ## Assignments
 
 - The React Project needs to include some CRUD operations
+- The webpack assignment is out of date and needs to be changed
+- 
 
 ## Modules
 
