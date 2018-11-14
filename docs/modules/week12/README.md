@@ -61,6 +61,12 @@ const Component = Platform.select({
 - [GestureResponder Ref](https://facebook.github.io/react-native/docs/gesture-responder-system)
 
 
+## Node Errors
+
+- When you are working with Expo and React Native, you are working with Node. That means NPM and Node Errors.
+- Here is a reference for the [Common System Errors](https://nodejs.org/api/errors.html#errors_common_system_errors)
+
+
 ## What to do Before Week 13
 
 ::: tip TODO
