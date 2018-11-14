@@ -247,6 +247,7 @@ iOS 12.1 still fails to let PWAs access file inputs, the camera, or getUserMedia
 - Your next assignment will be to research and use WorkBox to create a SIMPLE PWA.
 - Don't worry, it will be tested on an Android device.
 
+- Great [WorkBox Tutorial](https://medium.com/google-developer-experts/a-5-minute-intro-to-workbox-3-0-156803952b3e)
 
 ## What to do before Week 11
 
