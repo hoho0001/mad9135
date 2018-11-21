@@ -193,6 +193,6 @@ class HomeScreen extends Component {
 - Tell your instructor who your partner is.
 - Start wireframing, sketching, and planning your app for the Final Project
 - Pick a platform for your final App - iOS or Android
-- Fill out your Course Eval forms for all your classes.
+- Fill out your Course Eval forms for all your classes. [Course Eval Login](https://coursefeedback.algonquincollege.com/etw/ets/et.asp?nxappid=WCQ&nxmid=start&s=8)
 :::
 
