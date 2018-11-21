@@ -191,6 +191,10 @@ fetch
 - Information displayed should be at least: name, phone, distance, price and rating.
 - Please format the information display and include an image inside the View.
 - Here is Yelp's [Mobile Style Guide](https://www.yelp.com/styleguide/mobile)
+- Here is Yelp's [Brand Guidelines and Logo Downloads](https://www.yelp.com/brand)
+- Here are the page to download [the Yelp icons](https://www.yelp.com/styleguide/icons)
+- Yelp [Colour Guide](https://www.yelp.com/styleguide/color)
+- Yelp Stars [Image Downloads](https://www.yelp.com/developers/display_requirements)
 - **Submission**
 - Store your code in a PRIVATE repo. 
 - Both people should be collaborators on the Repo.
