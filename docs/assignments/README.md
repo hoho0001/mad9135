@@ -177,5 +177,26 @@ fetch
 
 - For this project you will need to choose a different pairs programming partner than you had for your PWA assignment.
 - Let your instructor know who your partner will be.
-- 
+- The application, when opened, only displays a button for the user to click in order to download the list of restaurants nearby. 
+- Your app can be either iOS or Android.
+- Here is Yelp's [Mobile Style Guide](https://www.yelp.com/styleguide/mobile)
+- Sample simple [version video of the app running](./final-mad9135.mov)
+- The list is fetched from the [Yelp Fusion API](https://www.yelp.com/developers/documentation/v3/business_search) 
+- In order to fetch those restaurants, you will need to create yourself an account and use the API key.  
+- While the application is fetching that data, a spinner should be displayed, indicating to the user that something is happening.
+- The search that you will implement will need to use the native GPS in order to provide a list to the user based on his coordinates.
+- The list of restaurants will show the names as well as the distance displayed in kilometers (with 2 decimals) from where the user is located.  
+- The list should be ordered by distance.
+- Clicking on one of the list items should show the details for that place.  
+- Information displayed should be at least: name, phone, distance, price and rating.
+- Please format the information display and include an image inside the View.
+- Here is Yelp's [Mobile Style Guide](https://www.yelp.com/styleguide/mobile)
+- **Submission**
+- Store your code in a PRIVATE repo. 
+- Both people should be collaborators on the Repo.
+- There should be commits on this project from BOTH partners
+- Invite your instructor as a collaborator on the project too.
+- Install your app on one of the phones in the cabinet
+- Submit both the URL for your shared repo PLUS the name of the phone where your app is installed.
 - Due Dec 12, 2018 @ 5pm
+- NO LATE SUBMISSIONS as this is the end of the semester.
