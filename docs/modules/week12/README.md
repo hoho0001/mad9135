@@ -190,8 +190,9 @@ class HomeScreen extends Component {
 
 ::: tip TODO
 - Find a NEW pairs programming partner for the Final Project
-- Start wireframing and sketching your app for the Final Project
+- Tell your instructor who your partner is.
+- Start wireframing, sketching, and planning your app for the Final Project
 - Pick a platform for your final App - iOS or Android
-- Think about which features you want to implement
+- Fill out your Course Eval forms for all your classes.
 :::
 
