@@ -16,13 +16,16 @@ React Native creates native applications, not hybrid applications
 
 ## Getting Started
 
-- On the command line we will use an NPM module called `create-react-native-app`. Sound familiar?
+- On the command line we will use an NPM module called `expo-cli` to create our initial app.
+- `create-react-native-app` is no longer supported for the latest versions of React Native.
+- `expo-cli` is the replacement for `create-react-native-app`.
 - Type the following to create a sample starter app and launch it to be run on your phone.
 
-```js
-npx create-react-native-app myapp
-cd myapp
-yarn start
+```
+npm install -g expo-cli
+expo init my-app
+cd my-app/
+npm start
 ```
 
 ## Expo
@@ -32,7 +35,8 @@ yarn start
 - Once installed and started you can either scan the QR Code shown in your terminal when you ran the yarn start command, or enter the ip address shown. Eg: `exp://192.168.10.10:19000`
 - With the Expo app we can test our app on our devices.
 - Note the commands listed in the Terminal for controlling and restarting the app.
-- 
+- [LifeCycle of an Expo Project](https://docs.expo.io/versions/latest/introduction/project-lifecycle.html)
+
 
 ## React Native Syntax
 
