@@ -174,9 +174,10 @@ class HomeScreen extends Component {
 - Read for next week.
 
 
-## JavaScript Debugging Notes for Expo
+## JavaScript Debugging Notes
 
-- [Expo docs on JS debugging](https://docs.expo.io/versions/v31.0.0/workflow/debugging)
+- [Expo docs on JS debugging Reference](https://docs.expo.io/versions/v31.0.0/workflow/debugging)
+- [React Native debugging Reference](https://facebook.github.io/react-native/docs/debugging)
 
 
 ## Node Errors
