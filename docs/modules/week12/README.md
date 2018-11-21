@@ -167,6 +167,12 @@ class HomeScreen extends Component {
 - [GestureResponder Reference](https://facebook.github.io/react-native/docs/gesture-responder-system)
 - Read for next week.
 
+
+## JavaScript Debugging Notes for Expo
+
+- [Expo docs on JS debugging](https://docs.expo.io/versions/v31.0.0/workflow/debugging)
+
+
 ## Node Errors
 
 - When you are working with Expo and React Native, you are working with Node. That means NPM and Node Errors.
