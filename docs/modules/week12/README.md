@@ -72,14 +72,19 @@ npm i react-navigation --save
 ```js
 import react, {Component} from 'react';
 import {Button} from 'react-native';
-import {createStackNavigator} from 'react-navigation';
+import {createStackNavigator, createAppContainer} from 'react-navigation';
 
-const App = createStackNavigator({
-  Home: {screen: HomeScreen},
-  Profile: {screen: ProfileScreen},
-});
+const App = createStackNavigator(
+    {
+      Home: {screen: HomeScreen},
+      Profile: {screen: ProfileScreen},
+    },
+    {
+        initialRouteName: "Home"
+    }
+);
 
-export default App;
+export default createAppContainer(App);
 ```
 
 - The home screen and profile screen could also exist inside App.js as the following.
