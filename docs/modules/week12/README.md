@@ -96,6 +96,7 @@ class HomeScreen extends Component {
   };
   render() {
     const {navigate} = this.props.navigation;
+    // We can use this.props.navigation directly inside the onPress too.
     return (
       <Button
         title="Go to Jane's profile"
