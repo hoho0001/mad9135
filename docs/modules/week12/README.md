@@ -74,15 +74,13 @@ import react, {Component} from 'react';
 import {Button} from 'react-native';
 import {createStackNavigator, createAppContainer} from 'react-navigation';
 
-const App = createStackNavigator(
-    {
+const App = createStackNavigator({
       Home: {screen: HomeScreen},
       Profile: {screen: ProfileScreen},
     },
     {
         initialRouteName: "Home"
-    }
-);
+    });
 
 export default createAppContainer(App);
 ```
