@@ -190,6 +190,7 @@ fetch
 - Clicking on one of the list items should show the details for that place.  
 - Information displayed should be at least: name, phone, distance, price and rating.
 - Please format the information display and include an image inside the View.
+- Think about what other features you can add to improve the app.
 - Here is Yelp's [Mobile Style Guide](https://www.yelp.com/styleguide/mobile)
 - Here is Yelp's [Brand Guidelines and Logo Downloads](https://www.yelp.com/brand)
 - Here are the page to download [the Yelp icons](https://www.yelp.com/styleguide/icons)
