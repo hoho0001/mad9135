@@ -141,10 +141,61 @@ const styles = StyleSheet.create({
 - The `replace` method will replace the current screen with the new one. So, nothing is added to the stack, just replaced.
 - The `navigate` method will act like a smart version of `push`. It will determine if there is something in the stack and add a back button to the header, as required. If you are clicking a button to navigate to a screen which is also the previous item on the stack then it knows to move backwards in the stack instead of adding a new entry.
 - There are other methods too. [Navigation Stack Actions reference](https://reactnavigation.org/docs/en/stack-actions.html)
+- [React Native Navigation Video]() COMING SOON
 
+
+## Custom Fonts with Expo
+
+- [React Native Custom Fonts Video](https://www.youtube.com/watch?v=DX9vXjC7Dsw)
+- [Custom Font Reference](https://docs.expo.io/versions/latest/guides/using-custom-fonts.html#using-custom-fonts)
+
+
+## Icons from Expo
+
+- You can use the set of fonts that are included with Expo in your React Native app.
+- [Expo Icon Reference](https://docs.expo.io/versions/latest/guides/icons)
+- [Expo List of icons](https://expo.github.io/vector-icons/)
+- [Using Expo Icons Video]() COMING SOON
+
+
+## Other Components with NativeBase
+
+- [Native Base](https://docs.nativebase.io/) is a set of styled components that you can import and use in React Native, similar to ReactStrap for React.
+- [Native Base Buttons and Icons video]() COMING SOON
+
+
+## Spinner from NativeBase
+
+- [Native Base Loading Spinner video]() COMING SOON
+- 
+
+## Fetch with React Native
+
+- [React Native Fetch video]() COMING SOON
+- 
+
+## Geolocation with React Native
+
+- [React Native Geolocation video](https://www.youtube.com/watch?v=KytduDMW_7o)
 
 
 ## Resources
 
 - Learn about Test Driven Design (TDD) in React
 - [React TDD Part I](https://www.twitch.tv/videos/336693260)
+- [React Native Video Playlist](https://www.youtube.com/watch?v=TesDIVA28rM&list=PLyuRouwmQCjnuUEYW4mnSp891sd3WL_zr)
+- React Native Playlist Episodes
+    - 1: Intro and Setup
+    - 2: Android Emulators and IOS Simulators
+    - 3: Basic Components
+    - 4: Layout and Grids
+    - 5: State
+    - 6: Props
+    - 7: Geolocation
+    - 8: Custom Fonts
+    - 9: Expo Icons
+    - 10: NativeBase Buttons and Icons
+    - 11: Fetch with React Native
+    - 12: Navigation in React Native
+    
+
