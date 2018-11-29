@@ -199,3 +199,7 @@ const styles = StyleSheet.create({
     - 12: Navigation in React Native
     
 
+## Inspiration
+
+- [The Myth of the Real JS Developer](https://www.youtube.com/watch?v=Xt5qpbiqw2g)
+
