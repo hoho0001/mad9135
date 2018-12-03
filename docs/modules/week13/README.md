@@ -166,12 +166,12 @@ const styles = StyleSheet.create({
 
 ## Spinner from NativeBase
 
-- [Native Base Loading Spinner video]() COMING SOON
+- [Native Base Loading Spinner video](https://www.youtube.com/watch?v=caxTvR4QMIY) 
 - 
 
 ## Fetch with React Native
 
-- [React Native Fetch video]() COMING SOON
+- [React Native Fetch video](https://www.youtube.com/watch?v=1yJu_4RkaIc) 
 - 
 
 ## Geolocation with React Native
