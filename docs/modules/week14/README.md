@@ -219,7 +219,7 @@ Error: Reason: Unexpected response, raw: {
 
 
 
-### React Native Eject
+### React Native without EXPO
 
 - You may have noticed that there is no xcodeproj or android project folder or files inside your React Native project.
 - If you want to get to these then go to [this page](https://facebook.github.io/react-native/docs/getting-started)
@@ -227,7 +227,29 @@ Error: Reason: Unexpected response, raw: {
 - This will give you instructions on how to work with the native projects.
 - You can install Turtle and the other tools on your own computer and build the project yourself.
 - Here is the [Expo Reference for Building Apps on CLI](https://docs.expo.io/versions/v31.0.0/distribution/turtle-cli)
-- [Eject Reference]()
+- start by installing react-native-cli with npm
+- follow these steps to get started
+
+```
+npm i -g react-native-cli
+react-native init myapp
+cd myapp
+react-native run-ios
+```
+
+- You can also use `react-native run-android` as your last step.
+- Now you will have a React Native project that includes the `ios` and `android` folders with the native projects.
+- OPTIONALLY you can install `watchman` with `homebrew` to get better update performance.
+- [HomeBrew website](https://brew.sh/)
+
+```
+brew install watchman
+```
+
+- The first time you run `react-native run-ios` it can take quite a while.
+- You can also open your .xcodeproj file in XCode and launch the simulator from there.
+- You can also open your Android project folder in Android Studio and launch from there.
+
 
 ### ExpoKit
 

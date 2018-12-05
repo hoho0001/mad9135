@@ -202,15 +202,15 @@ fetch
 - There should be commits on this project from BOTH partners
 - Invite your instructor as a collaborator on the project too.
 - Install your app on one of the phones in the cabinet
-- Submit both the URL for your shared repo PLUS the name of the phone where your app is installed.
+- Submit the following:
+    1. the URL for your shared repo 
+    2. the name of the phone where your app is installed.
+    3. If using Expo, the link to your project on expo.io
 
 ::: warning
-If you are submitting an iOS app then you will have to submit a zip file that contains your entire project. 
+If you are submitting an iOS app then you will not be able to create and install the .ipa on a phone using the Expo website. Our Apple Developer Account will not let you create the distribution .ipa file. This means that Expo won't even upload the app and create the Expo Client link.
 
-Our Apple Developer Account will not let you create the distribution .ipa file.
-So, Expo won't even upload the app and create the Expo Client link.
-
-I will be working on a work around for this for the client projects, in case any of them are iOS with React Native.
+The current alternative is to use `react-native-cli` to create the project with the android and ios project folders.
 :::
 
 - Due Dec 12, 2018 @ 5pm
