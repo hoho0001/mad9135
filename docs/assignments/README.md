@@ -203,5 +203,15 @@ fetch
 - Invite your instructor as a collaborator on the project too.
 - Install your app on one of the phones in the cabinet
 - Submit both the URL for your shared repo PLUS the name of the phone where your app is installed.
+
+::: warning
+If you are submitting an iOS app then you will have to submit a zip file that contains your entire project. 
+
+Our Apple Developer Account will not let you create the distribution .ipa file.
+So, Expo won't even upload the app and create the Expo Client link.
+
+I will be working on a work around for this for the client projects, in case any of them are iOS with React Native.
+:::
+
 - Due Dec 12, 2018 @ 5pm
 - NO LATE SUBMISSIONS as this is the end of the semester.
