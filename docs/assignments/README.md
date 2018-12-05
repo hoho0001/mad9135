@@ -180,7 +180,7 @@ fetch
 - The application, when opened, only displays a button for the user to click in order to download the list of restaurants nearby. 
 - Your app can be either iOS or Android.
 - Here is Yelp's [Mobile Style Guide](https://www.yelp.com/styleguide/mobile)
-- Sample simple [version video of the app running](../final-mad9135.mov) This link should be 'final-mad9135.mob' at the root of this website (inside the mad9135 folder).
+- Sample simple [version video of the app running](../final-mad9135.mov) This link should be 'final-mad9135.mov' at the root of this website (inside the mad9135 folder).
 - The list is fetched from the [Yelp Fusion API](https://www.yelp.com/developers/documentation/v3/business_search) 
 - In order to fetch those restaurants, you will need to create yourself an account and use the API key.  
 - While the application is fetching that data, a spinner should be displayed, indicating to the user that something is happening.
