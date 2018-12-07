@@ -17,7 +17,7 @@ We will walk through the setup of installing and using each of these in class. H
 ## Reading
 
 - [React Interview Questions](https://dev.to/aershov24/26-reactredux-interview-questions-you-should-know-in-2018-41je)
-- 
+- [OverReacted](https://overreacted.io/) website by React creator Dan Abramov
 
 ## References
 
